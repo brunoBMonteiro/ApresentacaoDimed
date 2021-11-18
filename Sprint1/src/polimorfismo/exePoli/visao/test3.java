@@ -1,8 +1,8 @@
 package polimorfismo.exePoli.visao;
 
-import apresentacao.pilares.polimorfismo.exePoli.modelo.Computador;
-import apresentacao.pilares.polimorfismo.exePoli.modelo.Produto;
-import apresentacao.pilares.polimorfismo.exePoli.modelo.Tomate;
+import polimorfismo.exePoli.modelo.Computador;
+import polimorfismo.exePoli.modelo.Produto;
+import polimorfismo.exePoli.modelo.Tomate;
 
 public class test3 {
     public static void main(String[] args) {

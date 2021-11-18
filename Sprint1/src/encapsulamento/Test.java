@@ -1,6 +1,7 @@
 package encapsulamento;
 
-import apresentacao.pilares.encapsulamento.pacote1.Pessoa;
+
+import encapsulamento.pacote1.Pessoa;
 
 public class Test {
     public static void main(String[] args) {

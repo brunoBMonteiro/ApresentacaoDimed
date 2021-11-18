@@ -1,8 +1,9 @@
 package polimorfismo.exePoli.visao;
 
-import apresentacao.pilares.polimorfismo.exePoli.modelo.Computador;
-import apresentacao.pilares.polimorfismo.exePoli.modelo.Tomate;
-import apresentacao.pilares.polimorfismo.exePoli.servicoController.CalculadoraImposto;
+import polimorfismo.exePoli.modelo.Computador;
+import polimorfismo.exePoli.modelo.Produto;
+import polimorfismo.exePoli.modelo.Tomate;
+import polimorfismo.exePoli.servicoController.CalculadoraImposto;
 
 public class test {
     public static void main(String[] args) {
