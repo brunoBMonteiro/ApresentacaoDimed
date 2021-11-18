@@ -20,6 +20,9 @@ public class Data {
     }
 
 
+    static void mensagem() {
 
+        System.out.println("Eu sou um metodo estatico");
+    }
 
 }

@@ -28,7 +28,7 @@ public class Estatico extends Data {
 
         System.out.println(d2.dia + "/" + d2.mes +"/"+ d2.ano);
 
-
+        mensagem();
 
     }
 
