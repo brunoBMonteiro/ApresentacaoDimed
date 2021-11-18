@@ -14,7 +14,6 @@ public abstract class Funcionario extends Pessoa{
     protected double salario;
 
     public Funcionario() {
-
     }
 
 

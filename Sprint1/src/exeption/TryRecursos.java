@@ -14,7 +14,7 @@ public class TryRecursos {
           try(Reader reader = new BufferedReader(new FileReader("teste"));){
 
 
-          // neste metodo não precisa de catch
+          // deste modo não precisa de catch
          }/*catch (IOException e){
 
           };*/

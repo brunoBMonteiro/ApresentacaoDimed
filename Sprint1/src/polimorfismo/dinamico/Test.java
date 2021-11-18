@@ -8,9 +8,10 @@ public class Test {
         System.out.println(carro.modelo());
 
         System.out.println("Uno--------");
-        Uno  uno = new Uno ();
 
-        System.out.println(uno.modelo());
+
+        Carro  carro2 = new Uno ();
+        System.out.println(carro2.modelo());
 
 
         //c= new Ferrari();

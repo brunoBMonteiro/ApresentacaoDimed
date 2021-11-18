@@ -7,12 +7,12 @@ import java.util.Date;
 public class Professor extends Funcionario {
 
     // construtor
-    public Professor(String _nome, String _cpf, Date _data,String _estadocivil) {
+    public Professor(String nome, String cpf, Date data_nascimento, String estadocivil) {
         // chama a classe pai  Pessoa
-        super(_nome, _cpf, _data,_estadocivil);
-
-
+        super(nome, cpf, data_nascimento, estadocivil);
     }
+
+
     public double salario;
     public String disciplina;
 }

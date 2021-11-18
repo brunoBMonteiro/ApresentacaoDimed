@@ -10,13 +10,11 @@ public class Pessoa {
 // pessoa herda de objeto
 // nomeclatura 
 
-    public Pessoa(String _nome, String _cpf, Date _data,String _estadocivil) {
-        this.nome = _nome;
-        this.cpf = _cpf;
-        this.data_nascimento = _data;
-        this.estadocivil = _estadocivil;
+
+    public Pessoa(String nome, String cpf, Date data_nascimento, String estadocivil) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.data_nascimento = data_nascimento;
+        this.estadocivil = estadocivil;
     }
-
-
-
 }

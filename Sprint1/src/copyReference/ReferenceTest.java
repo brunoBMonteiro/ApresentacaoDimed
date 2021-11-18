@@ -14,8 +14,6 @@ public class ReferenceTest {
         System.out.println(a1.nome);
  // Gargage collector // não tem como recuperar o a2 pois a memoria dele foi perdida
         System.out.println(a2.nome);
-
-
     }
 
 
