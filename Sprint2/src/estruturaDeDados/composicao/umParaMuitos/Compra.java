@@ -1,4 +1,4 @@
-package estruturadedados.composicao.umParaMuitos;
+package estruturaDeDados.composicao.umParaMuitos;
 
 import java.util.ArrayList;
 

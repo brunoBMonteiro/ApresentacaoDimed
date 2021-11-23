@@ -1,4 +1,4 @@
-package estruturadedados.composicao.desafio;
+package estruturaDeDados.composicao.desafio;
 
 public class Item {
  Produto produto;

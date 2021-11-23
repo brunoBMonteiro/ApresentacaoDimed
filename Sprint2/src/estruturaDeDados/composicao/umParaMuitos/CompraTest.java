@@ -1,4 +1,4 @@
-package estruturadedados.composicao.umParaMuitos;
+package estruturaDeDados.composicao.umParaMuitos;
 
 public class CompraTest {
     public static void main(String[] args) {

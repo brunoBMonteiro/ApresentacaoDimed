@@ -1,4 +1,4 @@
-package estruturadedados.composicao.muitosParaMuitos;
+package estruturaDeDados.composicao.muitosParaMuitos;
 
 import java.util.ArrayList;
 import java.util.List;

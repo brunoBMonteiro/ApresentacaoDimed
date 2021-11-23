@@ -1,4 +1,4 @@
-package estruturadedados.composicao.muitosParaMuitos;
+package estruturaDeDados.composicao.muitosParaMuitos;
 
 public class CursoTest {
 

@@ -1,4 +1,4 @@
-package estruturadedados.composicao.desafio;
+package estruturaDeDados.composicao.desafio;
 
 public class ClienteTest {
     public static void main(String[] args) {

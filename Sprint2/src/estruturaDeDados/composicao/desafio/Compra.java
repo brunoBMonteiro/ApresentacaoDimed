@@ -1,4 +1,4 @@
-package estruturadedados.composicao.desafio;
+package estruturaDeDados.composicao.desafio;
 
 import java.util.ArrayList;
 import java.util.List;

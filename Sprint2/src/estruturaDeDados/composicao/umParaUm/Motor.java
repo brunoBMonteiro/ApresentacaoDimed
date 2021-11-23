@@ -1,4 +1,4 @@
-package estruturadedados.composicao.umParaUm;
+package estruturaDeDados.composicao.umParaUm;
 
 public class Motor {
    boolean ligado = false;
