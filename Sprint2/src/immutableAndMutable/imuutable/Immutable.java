@@ -1,5 +1,11 @@
 package immutableAndMutable.imuutable;
 
+import jdk.jfr.internal.Utils;
+
+import javax.swing.*;
+import java.util.Objects;
+import java.util.Optional;
+
 public class Immutable {
 
     public static void main(String[] args) {
@@ -18,17 +24,18 @@ public class Immutable {
         System.out.println("-------------------------------");
 
         StringBuffer sb = new StringBuffer("mohan");
-        StringBuffer sb1 = sb.append(" kumar");
+        StringBuffer sb1 = sb.append("kumar");
         System.out.println(sb.hashCode());
-        System.out.println(sb1.hashCode()+" - "+(sb1==sb)+" - "+sb.hashCode());
+        System.out.println(sb1.hashCode()+"- "+(sb1==sb)+" -"+sb.hashCode());
 
 
 
-
-
-
+        String s = "Sachin" ;
+        s.concat ( "Tendulkar" ); // método concat () anexa a string no final
+        System.out.println (s); // imprimirá Sachin porque strings são objetos imutáveis
     }
 
+   // Java String Pool — the special memory region where Strings are stored by the JVM.
 
 
 }
