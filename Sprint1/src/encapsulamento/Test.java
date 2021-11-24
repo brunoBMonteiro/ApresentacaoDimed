@@ -2,6 +2,10 @@ package encapsulamento;
 
 
 import encapsulamento.pacote1.Pessoa;
+import jdk.jfr.internal.Utils;
+
+import java.util.Objects;
+import java.util.Optional;
 
 public class Test {
     public static void main(String[] args) {
@@ -13,6 +17,11 @@ public class Test {
          EncapsulamentoConceito p2 = new EncapsulamentoConceito();
 
         // p2.no
+
+
+
+
+        //Utils
 
 
 
