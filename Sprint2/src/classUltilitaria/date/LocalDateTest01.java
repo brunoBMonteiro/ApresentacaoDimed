@@ -5,11 +5,9 @@ import java.time.Month;
 import java.time.temporal.ChronoField;
 import java.util.Calendar;
 import java.util.Date;
-<<<<<<< HEAD
-// used here
-=======
 
->>>>>>> main
+// used here
+
 public class LocalDateTest01 {
     public static void main(String[] args) {
         System.out.println(new Date());
