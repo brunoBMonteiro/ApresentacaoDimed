@@ -10,6 +10,7 @@ public class Immutable {
 
     public static void main(String[] args) {
 
+
         String str1 = new String("john");
         String str2 = str1 ;
         System.out.println(str1.hashCode());
@@ -27,7 +28,6 @@ public class Immutable {
         StringBuffer sb1 = sb.append("kumar");
         System.out.println(sb.hashCode());
         System.out.println(sb1.hashCode()+"- "+(sb1==sb)+" -"+sb.hashCode());
-
 
 
         String s = "Sachin" ;
