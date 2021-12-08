@@ -1,4 +1,4 @@
-package estruturaDeDados.collections2.test;
+package estruturaDeDados.collections2.test.array;
 
 import estruturaDeDados.collections2.dominio.Smartphone;
 

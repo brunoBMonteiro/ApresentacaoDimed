@@ -1,4 +1,4 @@
-package estruturaDeDados.collections2.test;
+package estruturaDeDados.collections2.test.array;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,9 +8,9 @@ public class ListTest {
 
 // dinamicamente icrementado
 
-        // força em tempo de compilação   // foi retirado a partir da verção 7
+        // força em tempo de compilação   // foi retirado a partir da verção 7 o input obrigatorio
         List<String> nomes = new ArrayList<>(100);
-       nomes.add("Tom");
+        nomes.add("Tom");
         nomes.add("Joao");
         // misturar até a versção 1.4
 
