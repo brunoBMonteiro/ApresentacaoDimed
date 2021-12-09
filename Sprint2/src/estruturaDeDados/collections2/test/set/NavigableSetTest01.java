@@ -6,7 +6,7 @@ import estruturaDeDados.collections2.dominio.Smartphone;
 import java.util.Comparator;
 import java.util.NavigableSet;
 import java.util.TreeSet;
-
+// ------------------ SOLID ------------------------------------
 // se não tiver acesso a Classe smartphone pode
 class SmartphoneMarcaComparator implements Comparator<Smartphone> {
     @Override
@@ -21,7 +21,6 @@ class SmartphoneMarcaComparator implements Comparator<Smartphone> {
 // Ou diretamente na classe
 
 class MangaPrecoComparator implements  Comparator<Manga>{
-
     @Override
     public int compare(Manga o1, Manga o2) {
         return Double.compare(o1.getPreco(),o2.getPreco());

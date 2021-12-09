@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="425d1db0-acae-4489-b9f4-49c83318de63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/set/NavigableSetTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/map/NavigableMapTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/map/NavigableMapTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/queue/QueueTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/queue/QueueTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaDeDados/collections2/dominio/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/dominio/Consumidor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/estruturaDeDados/collections2/dominio/Manga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/dominio/Manga.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/array/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/SetTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/set/SetTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/SmartphoneList01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/array/SmartphoneList01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/map/MapTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/map/MapTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/immutableAndMutable/imuutable/Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutableAndMutable/imuutable/Immutable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="21JmX7Dqn55sBdtC1jWOhSJa0T2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,6 +51,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sprint1" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -49,13 +65,13 @@
       <recent name="classUltilitaria.date.format" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NavigableSetTest01">
-    <configuration name="InteratorTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.InteratorTest01" />
+  <component name="RunManager" selected="Application.QueueTest02">
+    <configuration name="MapTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.map.MapTest03" />
       <module name="Sprint2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturaDeDados.collections2.test.set.*" />
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.array.ListTest" />
+    <configuration name="NavigableMapTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.map.NavigableMapTest01" />
       <module name="Sprint2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturaDeDados.collections2.test.set.*" />
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaCoversaoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.ListaCoversaoTest01" />
+    <configuration name="NavigableMapTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.map.NavigableMapTest02" />
       <module name="Sprint2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturaDeDados.collections2.test.set.*" />
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigableSetTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.set.NavigableSetTest01" />
+    <configuration name="QueueTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.queue.QueueTest01" />
       <module name="Sprint2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturaDeDados.collections2.test.set.*" />
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +118,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.set.SetTest01" />
+    <configuration name="QueueTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.queue.QueueTest02" />
       <module name="Sprint2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturaDeDados.collections2.test.set.*" />
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,13 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MapTest03" />
+      <item itemvalue="Application.NavigableMapTest01" />
+      <item itemvalue="Application.NavigableMapTest02" />
+      <item itemvalue="Application.QueueTest01" />
+      <item itemvalue="Application.QueueTest02" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NavigableSetTest01" />
-        <item itemvalue="Application.SetTest01" />
-        <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.InteratorTest01" />
-        <item itemvalue="Application.ListaCoversaoTest01" />
+        <item itemvalue="Application.QueueTest02" />
+        <item itemvalue="Application.QueueTest01" />
+        <item itemvalue="Application.NavigableMapTest02" />
+        <item itemvalue="Application.NavigableMapTest01" />
+        <item itemvalue="Application.MapTest03" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +167,8 @@
       <workItem from="1638357279617" duration="4262000" />
       <workItem from="1638445393166" duration="11746000" />
       <workItem from="1638494654390" duration="625000" />
-      <workItem from="1638964775514" duration="13947000" />
+      <workItem from="1638964775514" duration="14114000" />
+      <workItem from="1639048369921" duration="11185000" />
     </task>
     <servers />
   </component>
@@ -159,7 +185,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -181,5 +206,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

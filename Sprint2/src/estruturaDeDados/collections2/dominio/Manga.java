@@ -24,6 +24,8 @@ public class Manga implements Comparable <Manga>{
         this.preco = preco;
     }
 
+
+
     @Override
     public String toString() {
         return "Manga{" +
