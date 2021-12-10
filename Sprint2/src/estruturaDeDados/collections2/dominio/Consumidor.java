@@ -14,9 +14,13 @@ public class Consumidor {
         this.nome = nome;
     }
 
+<<<<<<< HEAD
     public String getNome() {
         return nome;
     }
+=======
+
+>>>>>>> main
 
     @Override
     public String toString() {

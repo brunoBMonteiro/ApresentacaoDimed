@@ -7,11 +7,21 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+<<<<<<< HEAD
 public class MapTest03 {
     public static void main(String[] args) {
 
         Consumidor consumidor = new Consumidor("Jack");
         Consumidor consumidor2 = new Consumidor("Ana");
+=======
+   List<String> frutas = List.of("maça", "laranja");
+
+public class MapTest03 {
+    public static void main(String[] args) {
+
+       // Consumidor consumidor = new Consumidor("Jack");
+       // Consumidor consumidor2 = new Consumidor("Ana");
+>>>>>>> main
 
         Manga manga1 = new Manga(5l,"Manga1",2.4);
         Manga manga2 = new Manga(6l,"Manga5",2.4);
@@ -21,6 +31,7 @@ public class MapTest03 {
 
         
         
+<<<<<<< HEAD
         List<Manga> mangaList = List.of(manga1, manga2);
 
         Map<Consumidor, List<Manga> > consumidorManga = new HashMap();
@@ -37,6 +48,14 @@ public class MapTest03 {
 
 
         }
+=======
+        List<Manga> mangaList = new Lis();
+
+        Map<Consumidor, List<Manga> > consumidorManga = new HashMap<>();
+
+
+
+>>>>>>> main
 
 
     }
