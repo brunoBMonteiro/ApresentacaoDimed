@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="425d1db0-acae-4489-b9f4-49c83318de63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/dominio/Consumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/map/MapTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/map/MapTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/map/MapTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/set/NavigableSetTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaDeDados/collections2/test/set/NavigableSetTest01.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="21JmX7Dqn55sBdtC1jWOhSJa0T2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sprint1" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ficht\Documents\Workspace\ApresentacaoDimed\Sprint2\src\estruturaDeDados" />
+      <recent name="$PROJECT_DIR$/src/estruturaDeDados" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="classUltilitaria.date.format" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BinarySearchTest02">
+    <configuration name="BinarySearchTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.BinarySearchTest02" />
+  <component name="RunManager" selected="Application.NavigableSetTest01">
+    <configuration name="InteratorTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.InteratorTest01" />
+      <module name="Sprint2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.*" />
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InteratorTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.InteratorTest01" />
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.array.ListTest" />
+      <module name="Sprint2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.array.ListTest" />
+    <configuration name="ListaCoversaoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.ListaCoversaoTest01" />
+      <module name="Sprint2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListaCoversaoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.ListaCoversaoTest01" />
+    <configuration name="QueueTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.queue.QueueTest01" />
+      <module name="Sprint2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.*" />
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.queue.QueueTest02" />
+      <module name="Sprint2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.InteratorTest01" />
+      <item itemvalue="Application.ListTest" />
+      <item itemvalue="Application.ListaCoversaoTest01" />
+      <item itemvalue="Application.MapTest03" />
+      <item itemvalue="Application.NavigableMapTest01" />
+      <item itemvalue="Application.NavigableMapTest02" />
+      <item itemvalue="Application.QueueTest01" />
+      <item itemvalue="Application.QueueTest02" />
+      <item itemvalue="Application.BinarySearchTest02" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BinarySearchTest02" />
+        <item itemvalue="Application.NavigableSetTest01" />
+        <item itemvalue="Application.SetTest01" />
+        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.InteratorTest01" />
+        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.ListaCoversaoTest01" />
+        <item itemvalue="Application.ListaCoversaoTest01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="425d1db0-acae-4489-b9f4-49c83318de63" name="Changes" comment="" />
+      <created>1637667608880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637667608880</updated>
+      <workItem from="1637684976853" duration="5122000" />
+      <workItem from="1637770603750" duration="3710000" />
+      <workItem from="1637841229983" duration="15704000" />
+      <workItem from="1637925311185" duration="15105000" />
+      <workItem from="1638184207440" duration="2284000" />
+      <workItem from="1638189306234" duration="6859000" />
+      <workItem from="1638357279617" duration="4262000" />
+      <workItem from="1638445393166" duration="11746000" />
+      <workItem from="1638494654390" duration="625000" />
+      <workItem from="1638964775514" duration="14114000" />
+      <workItem from="1639048369921" duration="11185000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/estruturaDeDados/collections2/test/BinarySearchTest01.java</url>
+          <line>8</line>
+          <properties class="estruturaDeDados.collections2.test.BinarySearchTest01" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
