@@ -59,16 +59,12 @@
       <recent name="classUltilitaria.date.format" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTest02">
-    <configuration name="BinarySearchTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.BinarySearchTest02" />
-  <component name="RunManager" selected="Application.NavigableSetTest01">
+  <component name="RunManager" selected="Application.MapTest03">
     <configuration name="InteratorTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.InteratorTest01" />
       <module name="Sprint2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturaDeDados.collections2.test.*" />
           <option name="PATTERN" value="estruturaDeDados.collections2.test.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -77,8 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InteratorTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.InteratorTest01" />
+    <configuration name="InteratorTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true" />
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.array.ListTest" />
       <module name="Sprint2" />
@@ -92,8 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.array.ListTest" />
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true" />
     <configuration name="ListaCoversaoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.ListaCoversaoTest01" />
       <module name="Sprint2" />
@@ -107,15 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaCoversaoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.ListaCoversaoTest01" />
-    <configuration name="QueueTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.queue.QueueTest01" />
+    <configuration name="ListaCoversaoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true" />
+    <configuration name="MapTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturaDeDados.collections2.test.map.MapTest03" />
       <module name="Sprint2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturaDeDados.collections2.test.*" />
-          <option name="PATTERN" value="estruturaDeDados.collections2.test.queue.*" />
+          <option name="PATTERN" value="estruturaDeDados.collections2.test.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,22 +134,15 @@
       <item itemvalue="Application.InteratorTest01" />
       <item itemvalue="Application.ListTest" />
       <item itemvalue="Application.ListaCoversaoTest01" />
-      <item itemvalue="Application.MapTest03" />
-      <item itemvalue="Application.NavigableMapTest01" />
-      <item itemvalue="Application.NavigableMapTest02" />
-      <item itemvalue="Application.QueueTest01" />
       <item itemvalue="Application.QueueTest02" />
-      <item itemvalue="Application.BinarySearchTest02" />
+      <item itemvalue="Application.MapTest03" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchTest02" />
-        <item itemvalue="Application.NavigableSetTest01" />
-        <item itemvalue="Application.SetTest01" />
+        <item itemvalue="Application.MapTest03" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.InteratorTest01" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.ListaCoversaoTest01" />
         <item itemvalue="Application.ListaCoversaoTest01" />
       </list>
     </recent_temporary>
