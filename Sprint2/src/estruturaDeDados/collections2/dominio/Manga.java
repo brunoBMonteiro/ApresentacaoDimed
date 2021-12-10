@@ -25,7 +25,6 @@ public class Manga implements Comparable <Manga>{
     }
 
 
-
     @Override
     public String toString() {
         return "Manga{" +

@@ -18,6 +18,7 @@ public class Consumidor {
         return nome;
     }
 
+
     @Override
     public String toString() {
         return "Consumidor{" +
