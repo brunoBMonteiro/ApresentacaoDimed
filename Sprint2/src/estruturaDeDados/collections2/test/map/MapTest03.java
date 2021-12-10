@@ -12,7 +12,7 @@ public class MapTest03 {
     public static void main(String[] args) {
 
         Consumidor consumidor = new Consumidor("Jack");
-        Consumidor consumidor2 = new Consumidor("Ana");
+        Consumidor consumidor7 = new Consumidor("Ana");
 
 
         Manga manga1 = new Manga(5l,"Manga1",2.4);
