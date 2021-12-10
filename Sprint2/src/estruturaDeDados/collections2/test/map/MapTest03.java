@@ -8,6 +8,11 @@ import java.util.List;
 import java.util.Map;
 
 
+        Consumidor consumidor = new Consumidor("Jack");
+        Consumidor consumidor2 = new Consumidor("Ana");
+=======
+   List<String> frutas = List.of("maça", "laranja");
+
 public class MapTest03 {
     public static void main(String[] args) {
 
