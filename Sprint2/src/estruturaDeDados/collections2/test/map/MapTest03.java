@@ -21,26 +21,18 @@ public class MapTest03 {
         Manga manga4 = new Manga(2l,"Manga3",2.4);
 
 
-        
-
         List<Manga> mangaList = List.of(manga1, manga2);
-
         Map<Consumidor, List<Manga> > consumidorManga = new HashMap();
         consumidorManga.put(consumidor,mangaList);
 
+
         for (Map.Entry<Consumidor, List<Manga>> consumidorListEntry : consumidorManga.entrySet()) {
-
-
             System.out.println("-------"+consumidorListEntry.getKey().getNome());
             for (Manga manga : consumidorListEntry.getValue()) {
-
                 System.out.println("----------"+manga.getNome());
+
             }
-
-
         }
-
-
     }
 
 }
