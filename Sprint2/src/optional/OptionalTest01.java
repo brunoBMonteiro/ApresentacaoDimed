@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package optional;
 
 import estruturaDeDados.ArrayConceito;
@@ -75,4 +76,7 @@ public class OptionalTest01 {
                 .allMatch(number -> number > 0);
     }
 
+=======
+package optional;public class OptionalTest01 {
+>>>>>>> main
 }

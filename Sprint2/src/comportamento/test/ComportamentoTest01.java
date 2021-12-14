@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 package comportamento.test;
 
 import comportamento.dominio.Car;
+=======
+package optional.comportamento.test;
+
+import optional.comportamento.dominio.Car;
+>>>>>>> main
 
 import java.util.ArrayList;
 import java.util.List;

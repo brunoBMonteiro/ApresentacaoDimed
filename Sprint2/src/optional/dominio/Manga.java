@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package optional.dominio;
 
 public class Manga {
@@ -40,4 +41,7 @@ public class Manga {
     public int getChapters() {
         return chapters;
     }
+=======
+package optional.dominio;public class Manga {
+>>>>>>> main
 }

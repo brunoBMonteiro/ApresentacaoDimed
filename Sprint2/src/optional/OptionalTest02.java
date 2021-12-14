@@ -1,7 +1,15 @@
 package optional;
 
+<<<<<<< HEAD
 import java.util.List;
 import java.util.Optional;
+=======
+import estruturaDeDados.ArrayConceito;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.function.Consumer;
+>>>>>>> main
 
 // o que é ?
 // foi introduzina na classe 8 do java
@@ -10,6 +18,7 @@ import java.util.Optional;
 // pode ser optional , ou seja não vir , inves de retornar null
 // vai ser um optional
 // o intuito é deixar o java mais funcional.
+<<<<<<< HEAD
 public class OptionalTest02 {
 
 
@@ -18,6 +27,9 @@ public class OptionalTest02 {
     Optional<String> name ;
 
 
+=======
+public class OptionalTest01 {
+>>>>>>> main
     public static void main(String[] args) {
 
         //String nome = findName("jack");
@@ -39,8 +51,12 @@ public class OptionalTest02 {
 
         System.out.println(" ------------------");
         // vai retornar (empty),  e não Nullpointer
+<<<<<<< HEAD
         // transforma em optional
         Optional<String> nameOptional = (findName(Optional.of("ana")));
+=======
+        Optional<String> nameOptional = Optional.ofNullable(findName("ana"));
+>>>>>>> main
         System.out.println(nameOptional);
 
         System.out.println("--------Lamb-------------");
@@ -59,15 +75,26 @@ public class OptionalTest02 {
 
     }
 
+<<<<<<< HEAD
 // metodo tem retorno ou não               // não é indicado para passagem de parametro
     public static Optional<String> findName(Optional<String> name){
+=======
+
+    public static String findName(String name){
+>>>>>>> main
                                 // cria uma lista immutavel
         List<String> list = List.of("jack","ana");
         int i = list.indexOf(name);
         if (i != -1){
+<<<<<<< HEAD
             return Optional.of(list.get(i));
         }
         return Optional.empty();
+=======
+            return list.get(i);
+        }
+        return null;
+>>>>>>> main
     }
 
 }

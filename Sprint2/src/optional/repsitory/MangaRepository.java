@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package optional.repsitory;
 
 import optional.dominio.Manga;
@@ -14,4 +15,7 @@ public class MangaRepository {
 
 
 
+=======
+package optional.repsitory;public class MangaRepository {
+>>>>>>> main
 }

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package comportamento.dominio;
+=======
+package optional.comportamento.dominio;
+>>>>>>> main
 // parametrização de comportamentos
 
 
