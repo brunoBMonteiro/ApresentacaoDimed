@@ -40,4 +40,8 @@ public class Manga {
     public int getChapters() {
         return chapters;
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 }

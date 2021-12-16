@@ -22,7 +22,9 @@ public class MapTest03 {
 
 
         List<Manga> mangaList = List.of(manga1, manga2);
+
         Map<Consumidor, List<Manga> > consumidorManga = new HashMap();
+
         consumidorManga.put(consumidor,mangaList);
 
 

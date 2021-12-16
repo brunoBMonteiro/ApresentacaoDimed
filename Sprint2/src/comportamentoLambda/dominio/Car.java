@@ -1,4 +1,4 @@
-package comportamento.dominio;
+package comportamentoLambda.dominio;
 // parametrização de comportamentos
 
 

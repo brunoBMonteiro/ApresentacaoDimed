@@ -1,6 +1,6 @@
-package comportamento.test;
+package comportamentoLambda.test;
 
-import comportamento.dominio.Car;
+import comportamentoLambda.dominio.Car;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,9 +13,7 @@ public class ComportamentoTest01 {
 
     private static List<Car> filterGreenCar(List<Car> cars){
         List<Car> greenCars = new ArrayList<>();
-
         for (Car car : cars) {
-
             if (car.getColor().equals("green")){
                 greenCars.add(car);
             }
