@@ -3,6 +3,7 @@ package optional;
 import optional.dominio.Manga;
 import optional.repsitory.MangaRepository;
 
+import java.util.Objects;
 import java.util.Optional;
 
 public class OptionalTest03 {
@@ -22,9 +23,5 @@ public class OptionalTest03 {
         mangaByID.ifPresent(m-> m.setId(400));
 
         System.out.println(mangaByID);
-
-
-
-
     }
 }
