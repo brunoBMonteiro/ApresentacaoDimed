@@ -1,6 +1,6 @@
-package comportamentoLambda.test;
+package features.aOito.comportamentoLambda.test;
 
-import comportamentoLambda.dominio.Car;
+import features.aOito.comportamentoLambda.dominio.Car;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
-package comportamentoLambda.lambda.test;
+package features.aOito.comportamentoLambda.lambda.test;
 
-import comportamentoLambda.lambda.dominio.Anime;
-import comportamentoLambda.lambda.service.AnimeComparators;
+import features.aOito.comportamentoLambda.lambda.dominio.Anime;
+import features.aOito.comportamentoLambda.lambda.service.AnimeComparators;
 
 import java.util.ArrayList;
 import java.util.List;

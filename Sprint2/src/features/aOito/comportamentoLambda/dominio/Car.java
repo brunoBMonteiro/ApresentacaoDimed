@@ -1,4 +1,4 @@
-package comportamentoLambda.dominio;
+package features.aOito.comportamentoLambda.dominio;
 // parametrização de comportamentos
 
 

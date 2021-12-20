@@ -1,4 +1,4 @@
-package comportamentoLambda.test;
+package features.aOito.comportamentoLambda.test;
 // o que é a function , é uma classe funcional
 // tem os tipos T e o R  <T R> class Function
 //  T - >  o que vai receber
@@ -12,7 +12,6 @@ package comportamentoLambda.test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class FunctionLambdaTestMethodReference {

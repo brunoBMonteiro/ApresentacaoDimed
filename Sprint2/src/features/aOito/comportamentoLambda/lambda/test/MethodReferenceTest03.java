@@ -1,8 +1,6 @@
-package comportamentoLambda.lambda.test;
+package features.aOito.comportamentoLambda.lambda.test;
 //Reference to an instance method of an arbitrary object of a particular type
 // usar a classe e não o objeto , e não static
-
-import comportamentoLambda.lambda.dominio.Anime;
 
 import java.util.ArrayList;
 import java.util.List;

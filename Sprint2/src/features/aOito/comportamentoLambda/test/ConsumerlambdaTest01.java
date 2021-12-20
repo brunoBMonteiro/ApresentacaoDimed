@@ -1,4 +1,4 @@
-package comportamentoLambda.test;
+package features.aOito.comportamentoLambda.test;
 // consumer é uma interface funcional parecida com predicate
 // a diferença é que ele vai executar uma operação e ele retorna void
 

@@ -1,11 +1,8 @@
 package optional.repsitory;
 
-import comportamentoLambda.dominio.Car;
 import optional.dominio.Manga;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 import java.util.function.Predicate;
 

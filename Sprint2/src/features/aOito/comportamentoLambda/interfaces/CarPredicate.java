@@ -1,6 +1,6 @@
-package comportamentoLambda.interfaces;
+package features.aOito.comportamentoLambda.interfaces;
 // lambda predicate
-import comportamentoLambda.dominio.Car;
+import features.aOito.comportamentoLambda.dominio.Car;
 // como é feito uma criação de classe Predicate
 // mas ja tem nativo no java
 

@@ -1,4 +1,4 @@
-package comportamentoLambda.lambda.dominio;
+package features.aOito.comportamentoLambda.lambda.dominio;
 //Method Reference
 // tem 4 tipos de uso
 

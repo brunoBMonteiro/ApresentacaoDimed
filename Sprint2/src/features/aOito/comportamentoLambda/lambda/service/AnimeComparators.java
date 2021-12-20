@@ -1,6 +1,6 @@
-package comportamentoLambda.lambda.service;
+package features.aOito.comportamentoLambda.lambda.service;
 
-import comportamentoLambda.lambda.dominio.Anime;
+import features.aOito.comportamentoLambda.lambda.dominio.Anime;
 
 public class AnimeComparators {
 
