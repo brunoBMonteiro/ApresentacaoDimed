@@ -2,7 +2,7 @@ package encapsulamento;
 
 
 import encapsulamento.pacote1.Pessoa;
-import jdk.jfr.internal.Utils;
+
 
 import java.util.Objects;
 import java.util.Optional;

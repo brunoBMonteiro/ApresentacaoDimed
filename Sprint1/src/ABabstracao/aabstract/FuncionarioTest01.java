@@ -11,7 +11,7 @@ public class FuncionarioTest01 {
 
         System.out.println(gerente);
 
-        gerente.promovido();
+
         System.out.println(desenvolvedor);
 
 

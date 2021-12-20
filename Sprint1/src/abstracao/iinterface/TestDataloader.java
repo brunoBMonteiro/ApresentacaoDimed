@@ -1,4 +1,4 @@
-package ABabstracao.iinterface;
+package abstracao.iinterface;
 
 public class TestDataloader {
     public static void main(String[] args) {

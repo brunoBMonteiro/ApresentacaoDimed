@@ -1,4 +1,4 @@
-package ABabstracao.iinterface;
+package abstracao.iinterface;
 
 public class FileLoader implements DataLoader,DataRemover{
 

@@ -1,4 +1,4 @@
-package ABabstracao.iinterface;
+package abstracao.iinterface;
 
 // Quais os TIPOS é permitido em interface ?
 // Porque foi necessaria a implementação das clases comcretas nas interfaces ?
