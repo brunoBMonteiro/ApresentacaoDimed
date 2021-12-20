@@ -1,5 +1,5 @@
 
-[  ] Sprint 01 (28/09): 
+[X] Sprint 01
 - git/gitlab 
 - lógica de programação 
 - OOP 
