@@ -50,7 +50,7 @@ public class NavigableSetTest01 {
         // não aceita iguais na
         manga.add(new Manga(12L,"Manga3",2.4,3));
 
- // para ordenaçção é usado o compareTo , o CompareTo esta ordenando pelo nome
+        // para ordenaçção é usado o compareTo , o CompareTo esta ordenando pelo nome
         // se ultiliza o treeset quando a classe que esta criando a coleção implementa comparator
         // ou se esta criando um comparator para passar na criação depois
         // toda vez que for inserido um elemento, o treeset vai reordenar baseado no compareTo, ou no comparator

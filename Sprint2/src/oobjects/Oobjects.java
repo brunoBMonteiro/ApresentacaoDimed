@@ -8,8 +8,11 @@ public class Oobjects {
 
     public static void main(String[] args) {
 
-        Produto produto = new Produto();
 
+
+        Produto produto = new Produto(null);
+
+        //Objects
 
         ///AssertionError;
 
@@ -20,7 +23,10 @@ public class Oobjects {
 
 
 
-        produto.hashCode();
+      //  System.out.println("nonNull");
+      //  System.out.println(Objects.requireNonNull(produto.nome));
+
+      //  produto.hashCode();
 
         //produto.ha
 

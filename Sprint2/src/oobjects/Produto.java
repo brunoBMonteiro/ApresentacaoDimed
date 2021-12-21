@@ -3,6 +3,8 @@ package oobjects;
 public class Produto {
     String nome;
 
+
+
     public String getNome() {
         return nome;
     }
@@ -15,8 +17,6 @@ public class Produto {
         this.nome = nome;
     }
 
-    public Produto (){
 
-    }
 
 }
