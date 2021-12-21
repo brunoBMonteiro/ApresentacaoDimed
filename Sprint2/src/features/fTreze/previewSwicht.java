@@ -21,21 +21,17 @@ public class previewSwicht {
       */
 
        // ----------------Multiline Strings (Preview)--------------------------
-        /*
+
         String htmlBeforeJava13 = "<html>\n" +
                 "    <body>\n" +
                 "        <p>Hello, world</p>\n" +
                 "    </body>\n" +
                 "</html>\n";
 
-        String htmlWithJava13 = """
-              <html>
-                  <body>
-                      <p>Hello, world</p>
-                  </body>
-              </html>
-              """;
-*/
+
+
+
+
 
 
     }

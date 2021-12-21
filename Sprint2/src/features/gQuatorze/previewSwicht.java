@@ -10,26 +10,27 @@ import static java.util.Calendar.SUNDAY;
 
 public class previewSwicht {
 
-    private static final int SUBSCRIBER = 1;
-    private static final int FREE_TRIAL = 2;
+    private static final String MONDAY = "1";
+    private static final String FRIDAY = "2";
+    private static final String SUNDAY = "3";
+    private static final String TUESDAY = "4";
+
 
     public static void main(String[] args) {
 
         String day = "1";
 
-      /*  int numLetters = switch (day) {
+        int numLetters = switch (day) {
             case MONDAY, FRIDAY, SUNDAY -> 6;
             case TUESDAY                -> 7;
 
             default      -> {
-                int a;
                 String s = day.toString();
                 int result = s.length();
-                a =result;
+                yield  result;
             }
-
         };
-*/
+
 
 
 
