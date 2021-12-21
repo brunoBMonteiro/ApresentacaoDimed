@@ -4,14 +4,13 @@ public class String {
     public static void main(String[] args) {
 
 
-/*
-        String text = """
-                Lorem ipsum dolor sit amet, consectetur adipiscing \
-                elit, sed do eiusmod tempor incididunt ut labore \
-                et dolore magna aliqua.\
-                """;
-                */
-
+        java.lang.String htmlWithJava15 = """
+              <html>
+                  <body>
+                      <p>Hello, world</p>
+                  </body>
+              </html>
+              """;
 
     }
 }

@@ -2,29 +2,29 @@ package features.aOito.comportamentoLambda.zStream.dominio;
 
 public class LightNovel {
 private String title;
-private double prive;
+private double price;
 
-    public LightNovel(String title, double prive) {
+    public LightNovel(String title, double price) {
         this.title = title;
-        this.prive = prive;
+        this.price = price;
     }
 
     public String getTitle() {
         return title;
     }
 
-    public double getPrive() {
-        return prive;
+    public double getPrice() {
+        return price;
     }
 
     @Override
     public String toString() {
         return "LightNovel{" +
                 "title='" + title + '\'' +
-                ", prive=" + prive +
+                ", price=" + price +
                 '}';
     }
 
-    
+
 
 }
