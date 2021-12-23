@@ -1,4 +1,4 @@
-package features.aOito.comportamentoLambda.test;
+package features.aOito.comportamentoLambda.test.behaviorParametrazation;
 
 import features.aOito.comportamentoLambda.dominio.Car;
 

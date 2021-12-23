@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 public class StreamTest03 {
     public static void main(String[] args) {
-
+// new resouces
         
         List<String> takeWhileS = Stream.iterate("", s -> s + "s")
                 .takeWhile(s -> s.length() < 10).collect(Collectors.toList());

@@ -28,6 +28,8 @@ public class TryRecursos {
 
 
 
+// Se não tivese o Try recouses seria deste jeito, alem do cacth, temos o finaly
+// apenas para fechar o arquivo que acima não precisa
 
     public static void lerArquivo(){
         // classe para leitura de arquivo

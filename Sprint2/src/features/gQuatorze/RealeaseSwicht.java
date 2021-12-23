@@ -8,7 +8,7 @@ import static java.util.Calendar.SUNDAY;
 //Switch Expression (Standard)
   //      The switch expressions that were preview in versions 12 and 13, are now standardized.
 
-public class previewSwicht {
+public class RealeaseSwicht {
 
     private static final String MONDAY = "1";
     private static final String FRIDAY = "2";

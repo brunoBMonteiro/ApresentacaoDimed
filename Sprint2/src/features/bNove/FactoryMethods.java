@@ -27,19 +27,15 @@ public class FactoryMethods {
         list.add ( "Primavera" );
         list.add ( "Hibernate" );
         list.add ( "JSP" );
-
         for (String s : list) {
             System.out.println(s);
         }
-
-
         System.out.println(names);
-
-
-
     }
      // é usado em collection
     //Ele retorna uma lista imutável
+
+
 
     private static Set<String> set = Set.of ( "Java" , "JavaFX" , "Spring" , "Hibernate" , "JSP" );
     private static List<String> names =  List.of ( "Java" , "JavaFX" , "Spring" , "Hibernate" , "JSP" );

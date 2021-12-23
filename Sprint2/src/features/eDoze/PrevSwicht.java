@@ -1,6 +1,6 @@
 package features.eDoze;
 
-public class SwichtPreview {
+public class PrevSwicht {
 
   //  Java 12 got a couple new features and clean-ups,
    // but the only ones worth mentioning here are Unicode 11 support

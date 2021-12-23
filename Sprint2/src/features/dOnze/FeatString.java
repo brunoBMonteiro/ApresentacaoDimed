@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class StringMethods {
+public class FeatString {
     public static void main(String[] args) throws IOException {
 
 
@@ -21,6 +21,7 @@ public class StringMethods {
         String ddd = "  f oo  ";
         var result2 = "f oo"; // true
 
+
         System.out.println("---");
         System.out.println("Marco".isBlank());
 
@@ -28,11 +29,7 @@ public class StringMethods {
         System.out.println("   Marco1".strip());
 
 
-        Path path = Files.writeString(Files.createTempFile("helloworld", ".txt"), "Hi, my name is!");
 
-        String s = Files.readString(path);
-
-        System.out.println(s);
 
     }
 
