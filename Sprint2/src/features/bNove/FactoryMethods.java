@@ -1,7 +1,5 @@
 package features.bNove;
 
-import features.aOito.comportamentoLambda.dominio.Car;
-
 
 /*Métodos de fábrica para coleta
 Os métodos de fábrica são tipos especiais de métodos estáticos usados

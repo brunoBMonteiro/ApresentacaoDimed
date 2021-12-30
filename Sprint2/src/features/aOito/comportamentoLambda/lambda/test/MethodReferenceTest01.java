@@ -12,7 +12,9 @@ public class MethodReferenceTest01 {
 
 
         List<Anime> animeList = new ArrayList<>(List.of(new Anime("Hellsing", 3), new Anime("Soa", 1)));
-                     // cria 2 objetos da classe anime // ordenado por nome // deste jeito não é possivel usar method reference
+                     // cria 2 objetos da classe anime
+        // ordenado por nome
+        // deste jeito não é possivel usar method reference
 
         // lambda se importa apenas com o target type, funcional descriptor
         // target type é o contexto que a lambda está inserido , isso quer dizer que podemos criar um metodo exatamente igual compareTo  Faz
