@@ -7,7 +7,7 @@
 - exceções 
 - acessos por cópia e referência 
  
-[  ] Sprint 02 
+[X] Sprint 02 
 - mutabilidade/imutabilidade 
 - estruturas de dados 
 - features java 8, 9, 10, 11, 12, 13, 14, 15 e 16 (duas features cada versão) 
@@ -15,7 +15,7 @@
 - Optional<>() 
 - classes Utils (Spring.util) 
  
-Sprint 03: 
+[ ]Sprint 03: 
 - threads 
 - streams 
 - generics 
