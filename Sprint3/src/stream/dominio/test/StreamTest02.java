@@ -1,6 +1,8 @@
-package features.oito.comportamentolambda.zStream.test;
+package stream.dominio.test;
 
-import features.oito.comportamentolambda.zStream.dominio.LightNovel;
+
+
+import stream.dominio.LightNovel;
 
 import java.util.ArrayList;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package features.oito.comportamentolambda.zStream.test;
+package features.oito.comportamentolambda.stream.test;
 /*
 * Stream é uma forma de processamento de dados
 * Streams ajuda a fazer as funcionalidades de uma coleção de uma forma mais funcional/ declarativa
@@ -13,7 +13,7 @@ package features.oito.comportamentolambda.zStream.test;
 * */
 
 
-import features.oito.comportamentolambda.zStream.dominio.LightNovel;
+import features.oito.comportamentolambda.stream.dominio.LightNovel;
 
 import java.util.ArrayList;
 import java.util.Comparator;

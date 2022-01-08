@@ -1,4 +1,4 @@
-package features.oito.comportamentolambda.zStream.dominio;
+package stream.dominio;
 
 public class LightNovel {
 private String title;
