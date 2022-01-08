@@ -1,4 +1,4 @@
-package immutableAndMutable.imuutable.classImumut.mutableclass;
+package mutableandimutable.classImumut;
 
 public class JtpExample {
 

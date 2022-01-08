@@ -1,4 +1,4 @@
-package immutableAndMutable.imuutable.classImumut.immutableclass;
+package mutableandimutable.immutableclass;
 
 public class JtpExample1 {
 // não permite modficações

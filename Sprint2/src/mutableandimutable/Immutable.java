@@ -1,4 +1,4 @@
-package immutableAndMutable.imuutable;
+package mutableandimutable;
 
 
 import javax.swing.*;
