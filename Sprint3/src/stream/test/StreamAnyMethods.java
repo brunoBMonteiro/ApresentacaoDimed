@@ -1,10 +1,10 @@
-package stream.dominio.test;
+package stream.test;
 
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class StreamTest03 {
+public class StreamAnyMethods {
     public static void main(String[] args) {
 
 

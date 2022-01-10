@@ -1,4 +1,4 @@
-package stream.dominio.test;
+package stream.test.map;
 /*
 * Stream é uma forma de processamento de dados
 * Streams ajuda a fazer as funcionalidades de uma coleção de uma forma mais funcional/ declarativa

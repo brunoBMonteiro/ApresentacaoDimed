@@ -1,4 +1,4 @@
-package stream.dominio.test;
+package stream.test.map;
 
 
 
@@ -34,6 +34,7 @@ public class StreamTest02 {
        List<String> title = list.stream()
                .sorted(Comparator.comparing(LightNovel::getTitle))
                .filter(lightNovel -> lightNovel.getPrice() <= 4)
+                              // extraindo apenas os titles
                .limit(3).map(LightNovel::getTitle)
                // final
                .collect(Collectors.toList());
