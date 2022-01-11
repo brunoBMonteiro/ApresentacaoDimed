@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63317951-fbee-4a89-a9a6-ebf6d6381bb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/dominio/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/test/collectors/StreamTest11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/test/collectors/StreamTest12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/test/findingandmatching/StreamTest6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/test/flatmap/StreamTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/test/gerandostream/StreamTest09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/test/gerandostream/StreamTest10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/test/map/StreamTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/test/parallelstreams/StreamTest16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/test/reduce/StreamTest08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/GerericsTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/dominio/Barco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/dominio/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/methods/MetodoGenericoTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/methods/MetodoGenericoTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/service/BarcoRentavelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/service/CarroRentavelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/service/RentalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/test/ClassGenericsTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/test/ClassGenericsTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/wildcard/WildCardTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/wildcard/WildCardTest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/dominio/LightNovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/dominio/LightNovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/dominio/test/StreamTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/test/map/StreamTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/dominio/test/StreamTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/test/map/StreamTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/dominio/test/StreamTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/test/StreamAnyMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +46,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stream" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sprint2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ficht\Documents\Workspace\ApresentacaoDimed\Sprint3\src\stream" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="generics.service" />
       <recent name="stream.dominio.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamTest16">
-    <configuration name="StreamTest09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.dominio.test.gerandostream.StreamTest09" />
+  <component name="RunManager" selected="Application.MetodoGenericoTest02">
+    <configuration name="ClassGenericsTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.test.ClassGenericsTest01" />
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.dominio.test.gerandostream.*" />
+          <option name="PATTERN" value="generics.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.dominio.test.gerandostream.StreamTest10" />
+    <configuration name="ClassGenericsTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.test.ClassGenericsTest02" />
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.dominio.test.gerandostream.*" />
+          <option name="PATTERN" value="generics.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.dominio.test.collectors.StreamTest11" />
+    <configuration name="MetodoGenericoTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.methods.MetodoGenericoTest02" />
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.dominio.test.collectors.*" />
+          <option name="PATTERN" value="generics.methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.test.collectors.StreamTest12" />
+    <configuration name="WildCardTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.wildcard.WildCardTest01" />
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.test.collectors.*" />
+          <option name="PATTERN" value="generics.wildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.test.parallelstreams.StreamTest16" />
+    <configuration name="WildCardTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.wildcard.WildCardTest02" />
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.test.parallelstreams.*" />
+          <option name="PATTERN" value="generics.wildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamTest16" />
-        <item itemvalue="Application.StreamTest12" />
-        <item itemvalue="Application.StreamTest11" />
-        <item itemvalue="Application.StreamTest10" />
-        <item itemvalue="Application.StreamTest09" />
+        <item itemvalue="Application.MetodoGenericoTest02" />
+        <item itemvalue="Application.ClassGenericsTest02" />
+        <item itemvalue="Application.ClassGenericsTest01" />
+        <item itemvalue="Application.WildCardTest02" />
+        <item itemvalue="Application.WildCardTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +147,8 @@
       <updated>1641640254732</updated>
       <workItem from="1641640256384" duration="5761000" />
       <workItem from="1641747769826" duration="4273000" />
-      <workItem from="1641811993980" duration="12705000" />
+      <workItem from="1641811993980" duration="15540000" />
+      <workItem from="1641906969893" duration="10192000" />
     </task>
     <servers />
   </component>
