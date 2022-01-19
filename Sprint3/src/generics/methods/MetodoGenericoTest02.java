@@ -25,8 +25,8 @@ public class MetodoGenericoTest02 {
 
               }
 
-    // primeiramente o tipo    //retorno                          // apos assinatura generica
-    private static<T>          List<T> criarArrayComUmObjComRetoro(T t){
+    // primeiramente o tipo (String)   //retorno                          // apos assinatura generica
+    private static <T>  List<T> criarArrayComUmObjComRetoro(T t){
         return List.of(t);
 
     }

@@ -35,7 +35,7 @@ public class WildCardTest02 {
             animal1.consulta();
         }
 
-        //List<Gato> gato = List.of(new Gato(),new Gato());
+       // List<Gato> gato = List.of(new Gato(),new Gato());
         //gato.add(new Gato());
     }
 
