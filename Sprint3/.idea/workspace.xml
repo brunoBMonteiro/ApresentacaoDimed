@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63317951-fbee-4a89-a9a6-ebf6d6381bb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/ThreadTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/ThreadTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/concorrencia/atomicint/AtomicIntegerTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/deadlock/DeadLockTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/multthread/dominio/Members.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/multthread/service/EmailDeliveryEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/multthread/test/EmailDeliveryTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/semaphore/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/semaphore/SharedResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/semaphore/WorkerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/semaphore/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/sincronismo/dominio/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/sincronismo/test/ThreadAccountTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/threadsafe/ThreadSafe01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/Sprint4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/src/Http.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprint3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/methods/MetodoGenericoTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/methods/MetodoGenericoTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/wildcard/WildCardTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/wildcard/WildCardTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/test/flatmap/StreamTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/test/flatmap/StreamTest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ThreadTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadTest01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +164,7 @@
       <workItem from="1642417936592" duration="15987000" />
       <workItem from="1642505317731" duration="9546000" />
       <workItem from="1642590723177" duration="425000" />
+      <workItem from="1642688834739" duration="636000" />
     </task>
     <servers />
   </component>
