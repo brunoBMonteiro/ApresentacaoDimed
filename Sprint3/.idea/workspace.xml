@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63317951-fbee-4a89-a9a6-ebf6d6381bb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint4/Sprint4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint4/src/Http.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/src/Caracteristicas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/src/HttpClientStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/ThreadTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/deadlock/DeadLockTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/deadlock/DeadLockTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/sincronismo/dominio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/sincronismo/dominio/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/sincronismo/test/ThreadAccountTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/sincronismo/test/ThreadAccountTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint4/src/Http.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SpringUsers-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,7 +71,7 @@
       <recent name="stream.dominio.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreTest">
+  <component name="RunManager" selected="Application.ThreadTest01">
     <configuration name="AtomicIntegerTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.concorrencia.atomicint.AtomicIntegerTest01" />
       <module name="Sprint3" />
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailDeliveryTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.multthread.test.EmailDeliveryTest01" />
+    <configuration name="DeadLockTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.deadlock.DeadLockTest01" />
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.multthread.test.*" />
+          <option name="PATTERN" value="threads.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.semaphore.SemaphoreTest" />
+    <configuration name="ThreadAccountTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.sincronismo.test.ThreadAccountTest01" />
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.semaphore.*" />
+          <option name="PATTERN" value="threads.sincronismo.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,8 +111,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.ThreadTest03" />
+    <configuration name="ThreadSafe01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.threadsafe.ThreadSafe01" />
+      <module name="Sprint3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.threadsafe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.ThreadTest01" />
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
@@ -123,26 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.semaphore.test" />
-      <module name="Sprint3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threads.semaphore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SemaphoreTest" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.EmailDeliveryTest01" />
+        <item itemvalue="Application.ThreadTest01" />
+        <item itemvalue="Application.DeadLockTest01" />
+        <item itemvalue="Application.ThreadSafe01" />
+        <item itemvalue="Application.ThreadAccountTest01" />
         <item itemvalue="Application.AtomicIntegerTest01" />
-        <item itemvalue="Application.ThreadTest03" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +166,8 @@
       <workItem from="1642505317731" duration="9546000" />
       <workItem from="1642590723177" duration="425000" />
       <workItem from="1642688834739" duration="636000" />
+      <workItem from="1643142040367" duration="1517000" />
+      <workItem from="1643196143098" duration="4112000" />
     </task>
     <servers />
   </component>
