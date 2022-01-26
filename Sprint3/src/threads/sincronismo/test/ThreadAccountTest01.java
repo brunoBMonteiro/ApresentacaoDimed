@@ -47,7 +47,7 @@ t2.start();
             System.out.println(getThreadName()+"***** Dentro do Syncronized");
             if (conta.getBalance() >= amount) {
                 System.out.println(getThreadName() + "Esta indo sacar o dinheiro");
-                conta.withdrawç(amount);
+                conta.withdraw(amount);
 
 
       /* // sleep não solta o lock

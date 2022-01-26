@@ -16,7 +16,6 @@ public class HttpClientStatus {
                 .GET() // GET is default
                 .build();
 
-        
 
            // Response
         HttpClient client = HttpClient.newHttpClient();

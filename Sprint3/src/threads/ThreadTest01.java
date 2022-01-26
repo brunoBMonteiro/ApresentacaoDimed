@@ -8,12 +8,6 @@ public class ThreadTest01 {
     // e pode ser um processo  (Sistema operacional)  divide a carga de processo do cpu
     // e o java cuida deste gerenciamento, e inicialização, pausa, e parar.
 
-    // 2 tipo de Threads
-    // Deamon x User
-    // é que o java encerra o programa quando todas as treads do tipo user sao terminadas
-    // deaemon :: não tem prioridade e é a thread que cuida do Gargage Collector, que vai limpar os objetos de memoria
-
-    // Caso a thread do tipo user finalize e a deamon esteja rodando, ela finaliza igual e descarta os processos
 
 
     // Dois Jeitos de Criar Threads
