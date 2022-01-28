@@ -4,7 +4,7 @@ public class Conta {
     private int balance = 50;
 
     // sacar
-    public void withdraw(int amount){
+    public void withdraw(int amount) {
         this.balance = this.balance - amount;
     }
 
@@ -12,7 +12,6 @@ public class Conta {
     public int getBalance() {
         return balance;
     }
-
 
 
 }

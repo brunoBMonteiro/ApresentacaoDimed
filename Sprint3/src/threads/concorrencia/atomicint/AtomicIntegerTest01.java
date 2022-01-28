@@ -10,12 +10,12 @@ class Counter {
 
     private final AtomicInteger atomicInteger = new AtomicInteger();
 
-     void  imcremetn() {
+    void imcremetn() {
         count++;
         atomicInteger.incrementAndGet();
     }
 
-    public int getCount() {
+    public synchronized int getCount() {
         return count;
     }
 
@@ -30,7 +30,7 @@ public class AtomicIntegerTest01 {
         Counter counter = new Counter();
 
         Runnable r = () -> {
-            for (int i = 0; i < 100000; i++) {
+            for (int i = 0; i < 100; i++) {
 
                 counter.imcremetn();
 

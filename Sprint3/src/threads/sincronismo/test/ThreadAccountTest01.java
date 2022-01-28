@@ -4,30 +4,31 @@ import threads.sincronismo.dominio.Conta;
 
 import java.util.concurrent.Semaphore;
 
-public class ThreadAccountTest01 implements  Runnable{
-            // se nçao criar como final, pois pode criar ou outro objeto assim não sabe quem vai dar lock
+public class ThreadAccountTest01 implements Runnable {
+    // se nçao criar como final, pois pode criar ou outro objeto assim não sabe quem vai dar lock
     private final Conta conta = new Conta();
 
     public static void main(String[] args) {
         // Cria uma Trhead e Separa em duas
         // o Lock é pra este objeto
-ThreadAccountTest01 threadAccountTest01 = new ThreadAccountTest01();
-Thread t1 = new Thread(threadAccountTest01,"Maria");
-Thread t2 = new Thread(threadAccountTest01,"Joao");
-t1.start();
-t2.start();
+        ThreadAccountTest01 threadAccountTest01 = new ThreadAccountTest01();
+        Thread t1 = new Thread(threadAccountTest01, "Maria");
+        Thread t2 = new Thread(threadAccountTest01, "Joao");
+        t1.start();
+        t2.start();
 
-         Semaphore semaphoreConsumer = new Semaphore(0);
+        Semaphore semaphoreConsumer = new Semaphore(0);
 
-         Semaphore semaphoreProducer = new Semaphore(1);
+        Semaphore semaphoreProducer = new Semaphore(1);
 
 
     }
+
     @Override
     public void run() {
         for (int i = 0; i < 5; i++) {
             withdrawl(10);
-            if(conta.getBalance() <0){
+            if (conta.getBalance() < 0) {
                 System.out.println("Fodeo");
 
             }
@@ -39,12 +40,12 @@ t2.start();
     // assim todo o objeto tem o lock - o lock é uma chave que se tem no objeto,se uma thread pelgar este lock não vai comseguir executar outro objeto
     // apos colocar o syn, o method deixa de ter paralelismo
 
-    private  /*synchronized*/ void withdrawl(int amount){
+    private  synchronized void withdrawl(int amount) {
 
         // pode synconizar apenas o objeto
-        System.out.println(getThreadName()+ "####  Fora do Syncronized");
+        System.out.println(getThreadName() + "####  Fora do Syncronized");
         synchronized (conta) {
-            System.out.println(getThreadName()+"***** Dentro do Syncronized");
+            System.out.println(getThreadName() + "***** Dentro do Syncronized");
             if (conta.getBalance() >= amount) {
                 System.out.println(getThreadName() + "Esta indo sacar o dinheiro");
                 conta.withdraw(amount);

@@ -15,8 +15,7 @@ public class SemaphoreTest {
     Semaphore binary = new Semaphore(1);
 
     // Main driver method
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
 
         final SemaphoreTest test = new SemaphoreTest();
 
@@ -24,8 +23,8 @@ public class SemaphoreTest {
         new Thread() {
 
             // Method that should be executed for thread1
-            @Override public void run()
-            {
+            @Override
+            public void run() {
                 test.mutualExclusion();
             }
         }.start();
@@ -34,16 +33,15 @@ public class SemaphoreTest {
         new Thread() {
 
             // Method that should be executed for thread2
-            @Override public void run()
-            {
+            @Override
+            public void run() {
                 test.mutualExclusion();
             }
         }.start();
     }
 
     // Method
-    private void mutualExclusion()
-    {
+    private void mutualExclusion() {
 
         // Try block to check for exceptions
         try {
@@ -72,9 +70,7 @@ public class SemaphoreTest {
             // Print and display the line number where
             // exception occured
             e.printStackTrace();
-        }
-
-        finally {
+        } finally {
 
             // release() method acts as output to semaphore
             // When thread operation is completed

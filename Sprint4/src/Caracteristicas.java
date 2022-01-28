@@ -32,9 +32,19 @@ public class Caracteristicas {
 
   // https://user-images.githubusercontent.com/33350348/150981148-376cb11c-790e-43e8-aa4d-4ffe58bb65bd.png
 
+
+   /*
+    SSL/TLS Handshake — major problem in HTTPS
+    Although HTTPS is secure by its design, the SSL/TLS handshake process consumes a significant time before establishing an HTTPS connection.
+    It normally costs 1–2 seconds and drastically slows down the startup performance of a website.
+   */
+
+
+
 /*
 
     Características
+
             Simplicidade: foi projetado para ser simples e legível às pessoas.
 
     Extensibilidade:
@@ -74,6 +84,7 @@ public class Caracteristicas {
 */
 
 
+//https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/418
 
     // https://httpbin.org/
 
