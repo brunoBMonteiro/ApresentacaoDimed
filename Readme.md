@@ -20,8 +20,8 @@ Ler "Clean Code"
 - Optional<>()
 - classes Utils (Spring.util)
 
-[---]Sprint 03:
---- threads
+[x]Sprint 03:
+- threads
 - streams
 - generics
 - wildcards java
