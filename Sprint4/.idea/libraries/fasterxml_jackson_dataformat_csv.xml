@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="fasterxml.jackson.dataformat.csv" type="repository">
+    <properties maven-id="com.fasterxml.jackson:jackson-dataformat-csv:0.5.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jackson-dataformat-csv/0.5.0/jackson-dataformat-csv-0.5.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.3/jackson-core-asl-1.9.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.3/jackson-mapper-asl-1.9.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

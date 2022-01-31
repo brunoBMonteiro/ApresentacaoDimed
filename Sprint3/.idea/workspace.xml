@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63317951-fbee-4a89-a9a6-ebf6d6381bb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Sprint5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint5/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint5/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sprint5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint4/src/PostRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ThreadTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ThreadTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ThreadTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadTest03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/concorrencia/atomicint/AtomicIntegerTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/concorrencia/atomicint/AtomicIntegerTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/deadlock/DeadLockTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/deadlock/DeadLockTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/semaphore/SemaphoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/semaphore/SemaphoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/semaphore/WorkerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/semaphore/WorkerTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/semaphore/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/semaphore/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/sincronismo/dominio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/sincronismo/dominio/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/sincronismo/test/ThreadAccountTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/sincronismo/test/ThreadAccountTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/threadsafe/ThreadSafe01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/threadsafe/ThreadSafe01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprint4/src/Caracteristicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint4/src/Caracteristicas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +173,7 @@
       <workItem from="1643196143098" duration="5134000" />
       <workItem from="1643203948910" duration="801000" />
       <workItem from="1643281566805" duration="6256000" />
+      <workItem from="1643379521542" duration="1382000" />
     </task>
     <servers />
   </component>

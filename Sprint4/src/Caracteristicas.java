@@ -83,12 +83,14 @@ public class Caracteristicas {
 
 */
 
+    // ssl -https://user-images.githubusercontent.com/33350348/151791160-7654e5e3-5773-4644-a45f-2cac1314d000.png
 
 //https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/418
 
     // https://httpbin.org/
 
 
-    //curl -X OPTIONS http://example.org -i
+
+    
 
 }
