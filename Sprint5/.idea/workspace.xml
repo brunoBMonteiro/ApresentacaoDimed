@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d16628d9-a01f-4877-9f2d-87b859b5e45a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Apresentation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/src/main/java/springboot/ApplicationStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/src/main/java/springboot/controller/AnimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/src/main/java/springboot/domain/Anime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/semSpringIo/src/main/java/springboot/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/src/main/java/springboot/SpringbootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/src/main/java/springboot/controller/AnimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/src/main/java/springboot/domain/Anime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/src/main/java/springboot/service/AnimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/src/main/java/springboot/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6/src/test/java/springboot/SpringbootApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/SpringaopexampleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/exeption/ErrorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/exeption/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/exeption/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/java/net/guides/springboot2/springboot2jpacrudexample/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-aop/src/test/java/net/guides/springboot2/springboot2jpacrudexample/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="24ElR9mWdrIu4TpFUQa8kcY2z0p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="microservice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="microservice" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d16628d9-a01f-4877-9f2d-87b859b5e45a" name="Changes" comment="" />
+      <created>1643203617823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643203617823</updated>
+      <workItem from="1643203619358" duration="302000" />
+      <workItem from="1643203943079" duration="609000" />
+      <workItem from="1645808772135" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
