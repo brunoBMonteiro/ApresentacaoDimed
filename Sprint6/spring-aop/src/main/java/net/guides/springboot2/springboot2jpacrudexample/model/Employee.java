@@ -1,18 +1,14 @@
 package net.guides.springboot2.springboot2jpacrudexample.model;
 
-import lombok.*;
+import lombok.Data;
+import org.springframework.hateoas.RepresentationModel;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "employees")
 @Data
-public class Employee {
+public class Employee extends RepresentationModel<Employee> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
