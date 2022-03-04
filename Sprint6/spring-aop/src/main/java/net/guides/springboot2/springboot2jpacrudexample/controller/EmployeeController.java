@@ -5,12 +5,16 @@ import lombok.AllArgsConstructor;
 import net.guides.springboot2.springboot2jpacrudexample.exeption.ResourceNotFoundException;
 import net.guides.springboot2.springboot2jpacrudexample.model.Employee;
 import net.guides.springboot2.springboot2jpacrudexample.service.EmployeeService;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
 import java.util.Map;
+
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 
 @RestController
@@ -25,8 +29,23 @@ public class EmployeeController {
 
 
     @GetMapping("/employees")
-    public List<Employee> getAllEmployees() {
-        return employeeService.getAllEmployees();
+    public ResponseEntity<List<Employee>> getAllEmployees() throws ResourceNotFoundException {
+
+        List<Employee> employeeList = employeeService.getAllEmployees();
+
+        for (Employee employee : employeeList) {
+            long id = employee.getId();
+
+            employee.add(linkTo(methodOn(EmployeeController.class).getEmployeeById(id)).withSelfRel());
+
+
+        }
+
+
+        return new ResponseEntity<List<Employee>>(employeeList, HttpStatus.OK);
+
+
+
     }
 
 //    @GetMapping("/employees/{id}")
