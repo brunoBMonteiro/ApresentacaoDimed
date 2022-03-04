@@ -48,6 +48,9 @@ public class LoggingAspect {
      */
 
 
+  //  Ele garante que um Advice seja executado se um método lançar uma exceção.
+  //  Usamos a anotação @AfterThrowing para implementar o conselho após o lançamento
+
     @AfterThrowing(pointcut = "applicationPackagePointcut() && springBeanPointcut()", throwing = "e")
     public void logAfterThrowing(JoinPoint joinPoint, Throwable e) {
         log.error("Exception in {}.{}() with cause = {}", joinPoint.getSignature().getDeclaringTypeName(),
@@ -61,6 +64,11 @@ public class LoggingAspect {
      * @return result
      * @throws Throwable throws IllegalArgumentException
      */
+
+   // que é o conselho mais poderoso.
+  //  O conselho em torno pode impedir a execução real do método e retornar uma resposta em nome dos métodos.
+  //  Ele também pode alterar os valores dos argumentos para o método de destino.
+
     @Around("applicationPackagePointcut() && springBeanPointcut()")
     public Object logAround(ProceedingJoinPoint joinPoint) throws Throwable {
         if (log.isDebugEnabled()) {

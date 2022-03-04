@@ -1,10 +1,10 @@
 package net.guides.springboot2.springboot2jpacrudexample.controller;
 
 
+import lombok.AllArgsConstructor;
 import net.guides.springboot2.springboot2jpacrudexample.exeption.ResourceNotFoundException;
 import net.guides.springboot2.springboot2jpacrudexample.model.Employee;
 import net.guides.springboot2.springboot2jpacrudexample.service.EmployeeService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,21 +15,31 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1")
+@AllArgsConstructor
 public class EmployeeController {
 
 
     private final EmployeeService employeeService;
 
-    @Autowired
-    public EmployeeController(EmployeeService employeeService) {
-        this.employeeService = employeeService;
-    }
+
 
 
     @GetMapping("/employees")
     public List<Employee> getAllEmployees() {
         return employeeService.getAllEmployees();
     }
+
+//    @GetMapping("/employees/{id}")
+//    public ResponseEntity<Employee> getEmployeeById(@PathVariable(value = "id") Long employeeId)
+//            throws ResourceNotFoundException {
+//        Employee employee = employeeService.getEmployeeById(employeeId)
+//                .orElseThrow(() -> new ResourceNotFoundException("Employee not found for this id :: " + employeeId));
+//
+//               // EntityModel.of(employee, WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(EmployeeController.class).getEmployeeById(employeeId)).withSelfRel(),
+//                //WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(EmployeeController.class).getAllEmployees()).withRel("employees"));
+//
+//        return  ResponseEntity.ok().body(employee);
+//    }
 
     @GetMapping("/employees/{id}")
     public ResponseEntity<Employee> getEmployeeById(@PathVariable(value = "id") Long employeeId)

@@ -1,9 +1,9 @@
 package net.guides.springboot2.springboot2jpacrudexample.service;
 
+import lombok.AllArgsConstructor;
 import net.guides.springboot2.springboot2jpacrudexample.exeption.ResourceNotFoundException;
 import net.guides.springboot2.springboot2jpacrudexample.model.Employee;
 import net.guides.springboot2.springboot2jpacrudexample.repository.EmployeeRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
@@ -11,18 +11,27 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-
+@AllArgsConstructor
 @Service
 public class EmployeeService {
 
-
+    //    public List<Employee> getAllEmployees() {
+////        List<Employee> employeeList = employeeRepository.findAll();
+////
+////        for (Employee employee : employeeList) {
+////            long id = employee.getId();
+////            employee.add(L)
+////
+////                    EntityModel<Employee> one(@PathVariable Long id){
+////
+////            }
+////
+////        }
+//
+//
+//        return employeeRepository.findAll();
+//    }
     private final EmployeeRepository employeeRepository;
-
-
-    @Autowired
-    public EmployeeService(EmployeeRepository employeeRepository) {
-        this.employeeRepository = employeeRepository;
-    }
 
 
     public List<Employee> getAllEmployees() {
@@ -31,10 +40,12 @@ public class EmployeeService {
 
     // exeption
     public Optional<Employee> getEmployeeById(Long employeeId) {
+
         return employeeRepository.findById(employeeId);
     }
 
     public Employee createEmployee(Employee employee) {
+
         return employeeRepository.save(employee);
     }
 
