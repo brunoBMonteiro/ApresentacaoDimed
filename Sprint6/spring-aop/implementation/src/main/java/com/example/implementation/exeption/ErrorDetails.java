@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2jpacrudexample.exeption;
+package com.example.implementation.exeption;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

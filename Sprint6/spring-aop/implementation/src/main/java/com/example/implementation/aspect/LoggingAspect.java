@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2jpacrudexample.aspect;
+package com.example.implementation.aspect;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
@@ -35,7 +35,7 @@ public class LoggingAspect {
      */
     @Pointcut("within(net.guides.springboot2.springboot2jpacrudexample..*)"+
             " || within(net.guides.springboot2.springboot2jpacrudexample.service..*)"+
-            " || within(net.guides.springboot2.springboot2jpacrudexample.controller..*)")
+            " || within(com.example.contract.controller..*)")
     public void applicationPackagePointcut() {
         // O método está vazio, pois é apenas um Pointcut, as implementações estão nos advices.
     }

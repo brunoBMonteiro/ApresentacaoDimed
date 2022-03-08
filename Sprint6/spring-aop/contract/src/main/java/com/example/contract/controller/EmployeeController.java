@@ -1,22 +1,13 @@
-package net.guides.springboot2.springboot2jpacrudexample.controller;
+package com.example.contract.controller;
 
 
-import lombok.AllArgsConstructor;
-import net.guides.springboot2.springboot2jpacrudexample.exeption.ResourceNotFoundException;
-import net.guides.springboot2.springboot2jpacrudexample.model.Employee;
-import net.guides.springboot2.springboot2jpacrudexample.service.EmployeeService;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
-import java.util.List;
+
+//import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+//import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
+
+
 import java.util.Map;
-import java.util.Optional;
-
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
-
 
 @RestController
 @RequestMapping("/api/v1")
@@ -26,21 +17,7 @@ public class EmployeeController {
 
     private final EmployeeService employeeService;
 
-  /*  @GetMapping("/employees")
-    ResponseEntity<CollectionModel<EntityModel<Employee>>> findAll() {
-        List<EntityModel<Employee>> employeeResources = StreamSupport.stream(repository.findAll().spliterator(), false)
-                .map(employee -> EntityModel.of(employee,
-                        linkTo(methodOn(EmployeeController.class).findOne(employee.getId())).withSelfRel()
-                                .andAffordance(afford(methodOn(EmployeeController.class).updateEmployee(null, employee.getId())))
-                                .andAffordance(afford(methodOn(EmployeeController.class).deleteEmployee(employee.getId()))),
-                        linkTo(methodOn(EmployeeController.class).findAll()).withRel("employees")))
-                .collect(Collectors.toList());
-        return ResponseEntity.ok(CollectionModel.of( //
-                employeeResources, //
-                linkTo(methodOn(EmployeeController.class).findAll()).withSelfRel()
-                        .andAffordance(afford(methodOn(EmployeeController.class).newEmployee(null)))));
-    }
-*/
+
 
     @GetMapping("/employees")
     public ResponseEntity<List<Employee>> getAllEmployees() throws ResourceNotFoundException {

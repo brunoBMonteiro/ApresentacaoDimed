@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2jpacrudexample.model;
+package com.example.implementation.model;
 
 import lombok.Data;
 import org.springframework.hateoas.RepresentationModel;
