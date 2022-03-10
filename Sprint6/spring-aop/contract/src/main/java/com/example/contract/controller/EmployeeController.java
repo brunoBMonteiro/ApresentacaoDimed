@@ -18,7 +18,6 @@ import java.util.Optional;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
-
 @RestController
 @RequestMapping("/api/v1")
 @AllArgsConstructor
@@ -67,6 +66,8 @@ public class EmployeeController {
     }
 
     @PutMapping("/employees/{id}")
+    /*Quando o Spring Boot encontra um argumento anotado com @Valid , ele inicializa automaticamente a implementação JSR 380 padrão — Hibernate Validator — e valida o argumento.
+Quando o argumento de destino não passa na validação, o Spring Boot lança uma exceção MethodArgumentNotValidException .*/
     public ResponseEntity<Employee> updateEmployee(@PathVariable(value = "id") Long employeeId,
                                                    @Valid @RequestBody Employee employeeDetails) throws ResourceNotFoundException {
         Employee updatedEmployee = employeeService.updateEmployee(employeeId, employeeDetails);

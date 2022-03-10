@@ -11,16 +11,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-//@AllArgsConstructor
+@AllArgsConstructor
 @Service
 public class EmployeeService {
 
 
     private final EmployeeRepository employeeRepository;
-
-    public EmployeeService(EmployeeRepository employeeRepository) {
-        this.employeeRepository = employeeRepository;
-    }
 
 
     public List<Employee> getAllEmployees() {
@@ -29,7 +25,6 @@ public class EmployeeService {
 
     // exeption
     public Optional<Employee> getEmployeeById(Long employeeId) {
-
         return employeeRepository.findById(employeeId);
     }
 
