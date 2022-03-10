@@ -3,7 +3,7 @@ package net.guides.springboot2.springboot2jpacrudexample;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.aoptest")
 public class SpringaopexampleApplication {
 
     public static void main(String[] args) {

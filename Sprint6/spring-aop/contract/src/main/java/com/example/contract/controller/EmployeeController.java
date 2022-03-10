@@ -6,6 +6,7 @@ import com.example.implementation.exeption.ResourceNotFoundException;
 import com.example.implementation.model.Employee;
 import com.example.implementation.service.EmployeeService;
 import lombok.AllArgsConstructor;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,6 +19,7 @@ import java.util.Optional;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
+
 @RestController
 @RequestMapping("/api/v1")
 @AllArgsConstructor
