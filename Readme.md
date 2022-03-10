@@ -26,13 +26,13 @@ Ler "Clean Code"
 - generics
 - wildcards java
 
-[]Sprint 04:
+[x]Sprint 04:
 - protocolo HTTP
 
-[]Sprint 05:
+[x]Sprint 05:
 - microservices x SOA
 
-Sprint 06:
+[x]Sprint 06:
 - spring
 - spring MVC
 - spring Data
