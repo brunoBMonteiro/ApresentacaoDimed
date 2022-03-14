@@ -1,0 +1,16 @@
+
+P
+java:S1118	":Add a private constructor to hide the implicit public one.(‰¨Ü¶
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÜàáÙ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÞÂŸ¼
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ç¥†ˆ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ü÷Ï¿
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÜàáÙ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ü÷Ï¿
+V	java:S125"<This block of commented-out lines of code should be removed.(ËçÆøÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(ÍÓˆ®
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(«Ó“ëüÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(Ü÷Ï¿
+k
+java:S1192"UDefine a constant instead of duplicating this literal "Imposto a ser pago: " 3 times.(Ü÷Ï¿
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÀ×ô
