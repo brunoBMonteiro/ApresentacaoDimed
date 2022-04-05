@@ -1,0 +1,6 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú·Œ¿8ù¿¬ş/
+H
+java:S1068"+Remove this unused "emailId" private field.(˜•ö8ù¿¬ş/
+N
+java:S1068",Remove this unused "password" private field.(œãë­úÿÿÿÿ8¼¼•†ş/

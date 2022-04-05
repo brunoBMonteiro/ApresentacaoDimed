@@ -9,7 +9,7 @@ import POpolimorfismo.exePoli.model.Tomate;
 public class CalculadoraImposto {
 
 
-    public static void calcularImpostoComputador(Computador computador){
+    public static void calcularImpostoComputador(Cliente  cliente,Games games){
 
         System.out.println("Relatorio de Imposto do Computador");
         double imposto = computador.calcularImposto();

@@ -1,0 +1,10 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚«Á úÿÿÿÿ8ÿñ¨ş/
+>
+java:S1068"(Remove this unused "name" private field.(Ë¥¼
+D
+java:S1068".Remove this unused "cardNumber" private field.(Û¾ïÇ
+<
+java:S1068"'Remove this unused "cvv" private field.(ÃÅ:
+E
+java:S1068"0Remove this unused "dateOfExpiry" private field.(Ò¹ëY
