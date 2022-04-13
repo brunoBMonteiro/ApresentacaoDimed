@@ -1,6 +1,8 @@
 package net.guides.springboot2.springboot2jpacrudexample.controller;
 
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import net.guides.springboot2.springboot2jpacrudexample.exeption.ResourceNotFoundException;
 import net.guides.springboot2.springboot2jpacrudexample.model.Employee;
@@ -27,7 +29,7 @@ public class EmployeeController {
     private final EmployeeService employeeService;
 
 
-
+    @ApiModelProperty(value = "模型说明")
     @GetMapping("/employees")
     public ResponseEntity<List<Employee>> getAllEmployees() throws ResourceNotFoundException {
         List<Employee> employeeList = employeeService.getAllEmployees();

@@ -2,7 +2,7 @@ package comportamental.interator;
 
 public interface ChannelIterator {
 
-    public boolean hasNext();
+     boolean hasNext();
 
-    public Channel next();
+     Channel next();
 }

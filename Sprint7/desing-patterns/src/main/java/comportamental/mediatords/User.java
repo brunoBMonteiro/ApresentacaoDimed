@@ -4,7 +4,7 @@ public abstract class User {
     protected ChatMediator mediator;
     protected String name;
 
-    public User(ChatMediator med, String name){
+    protected User(ChatMediator med, String name){
         this.mediator=med;
         this.name=name;
     }
