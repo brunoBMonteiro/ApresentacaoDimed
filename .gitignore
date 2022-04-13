@@ -1,2 +1,6 @@
 
 *.class
+
+*.lock
+
+Sprint6/semSpringIo/.gradle/7.1/dependencies-accessors/
