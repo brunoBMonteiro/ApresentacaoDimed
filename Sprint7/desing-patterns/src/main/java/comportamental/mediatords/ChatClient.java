@@ -12,9 +12,7 @@ public class ChatClient {
         mediator.addUser(user2);
         mediator.addUser(user3);
         mediator.addUser(user4);
-
         user1.send("Hi All");
-
     }
 
 }
