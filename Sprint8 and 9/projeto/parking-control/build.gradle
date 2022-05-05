@@ -1,0 +1,135 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.6'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'info.solidsoft.pitest' version '1.7.4'
+    id "org.sonarqube" version "3.3"
+    id 'java'
+    id 'jacoco'
+}
+
+group = 'com.api'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = "16"
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "parking-control"
+        property "sonar.organization", "parking-control"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.login", "f2023ef8ec4a27b0834832bcbb5d7b253918a3c5"
+        property "sonar.coverage.jacoco.xmlReportPaths", "build/build/reports/jacoco/testjacoco.xml"
+        property "dc5.mutationAnalysis.pitest.sensor.reports.directory", "build/reports/pitest"
+    }
+}
+
+
+repositories {
+    mavenCentral()
+    maven { url "https://oss.jfrog.org/artifactory/oss-snapshot-local" }
+    maven { url "https://plugins.gradle.org/m2/" }
+}
+
+dependencies {
+
+    //sonar
+    implementation "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
+    //test
+    implementation 'junit:junit:4.13.1'
+    implementation 'org.projectlombok:lombok:1.18.20'
+    implementation 'org.jetbrains:annotations:20.1.0'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'com.squareup.okhttp3:okhttp:4.10.0-RC1'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.9.3'
+    testImplementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2'
+
+//    JUnit Vintage — este módulo permite compatibilidade retroativa com JUnit 4 ou mesmo JUnit 3.
+    testImplementation group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '5.8.2'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.8.2'
+
+
+    // swagger
+    implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0'
+    implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2'
+    // docs
+    implementation group: 'org.springdoc', name: 'springdoc-openapi', version: '1.6.7'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-hateoas', version: '2.0.4.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compileOnly("org.projectlombok:lombok:1.18.20")
+    annotationProcessor("org.projectlombok:lombok:1.18.20")
+
+    runtimeOnly 'org.postgresql:postgresql'
+}
+
+pitest {
+    pitestVersion = '1.7.4' //not needed when a default PIT version should be used
+    threads = 4
+    outputFormats = ['XML', 'HTML']
+    timestampedReports = false
+}
+
+jacocoTestReport {
+   afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it,
+                    exclude: ['com/api/parkingcontrol/ParkingControlApplication.**'
+                              ,'com/api/parkingcontrol/SwaggerConfig.**'
+                              ,'com/api/parkingcontrol/models'
+                              ,'com/api/parkingcontrol/dto/'
+                              ,'com/api/parkingcontrol/exeption/ErrorDetails.**'
+                    ])
+        }))
+    }
+
+    dependsOn test // tests are required to run before generating the report
+
+    reports {
+        xml.enabled true
+        csv.enabled false
+        //to create coverage report in html
+        html.destination file("${buildDir}/build/reports/jacoco/testreports/coverage")
+        //for XML
+        xml.destination file("${buildDir}/build/reports/jacoco/testjacoco.xml")
+    }
+
+
+
+}
+
+jacoco {
+    toolVersion = "0.8.7"
+    reportsDirectory = layout.buildDirectory.dir("$buildDir/customJacocoReportDir")
+}
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                minimum = 0.0
+            }
+        }
+
+        rule {
+            enabled = false
+            element = 'CLASS'
+            includes = ['com.api.parkingcontrol.*']
+
+            limit {
+                counter = 'LINE'
+                value = 'TOTALCOUNT'
+                maximum = 0.3
+            }
+        }
+
+    }
+}
+
+
+test {
+    useJUnitPlatform()
+    finalizedBy jacocoTestReport // report is always generated after tests run
+}
+
+targetCompatibility = JavaVersion.VERSION_16
