@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class OperatorsTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class OperatorsTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; OperatorsTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">21</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.058s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">95%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="subscribeOnIO()"></a>
+<h3 class="failures">subscribeOnIO()</h3>
+<span class="code">
+<pre>java.lang.AssertionError: expectation &quot;expectComplete&quot; failed (expected: onComplete(); actual: onError(java.nio.file.NoSuchFileException: text-file))
+	at reactor.test.MessageFormatter.assertionError(MessageFormatter.java:115)
+	at reactor.test.MessageFormatter.failPrefix(MessageFormatter.java:104)
+	at reactor.test.MessageFormatter.fail(MessageFormatter.java:73)
+	at reactor.test.MessageFormatter.failOptional(MessageFormatter.java:88)
+	at reactor.test.DefaultStepVerifierBuilder.lambda$expectComplete$4(DefaultStepVerifierBuilder.java:336)
+	at reactor.test.DefaultStepVerifierBuilder$SignalEvent.test(DefaultStepVerifierBuilder.java:2218)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultVerifySubscriber.onSignal(DefaultStepVerifierBuilder.java:1490)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultVerifySubscriber.onExpectation(DefaultStepVerifierBuilder.java:1438)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultVerifySubscriber.onError(DefaultStepVerifierBuilder.java:1091)
+	at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.onError(MonoSubscribeOn.java:152)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onError(FluxPeekFuseable.java:234)
+	at reactor.core.publisher.MonoCallable.subscribe(MonoCallable.java:66)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.run(MonoSubscribeOn.java:126)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+	Suppressed: java.nio.file.NoSuchFileException: text-file
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+		at java.base/java.nio.file.Files.newByteChannel(Files.java:375)
+		at java.base/java.nio.file.Files.newByteChannel(Files.java:426)
+		at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+		at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+		at java.base/java.nio.file.Files.newBufferedReader(Files.java:2916)
+		at java.base/java.nio.file.Files.readAllLines(Files.java:3396)
+		at java.base/java.nio.file.Files.readAllLines(Files.java:3436)
+		at OperatorsTest.lambda$subscribeOnIO$12(OperatorsTest.java:143)
+		at reactor.core.publisher.MonoCallable.subscribe(MonoCallable.java:57)
+		... 9 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">combineLatestOperator()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">concatOperator()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">concatOperatorError()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">concatWithOperator()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deferOperator()</td>
+<td class="success">0.340s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flatMapOperator()</td>
+<td class="success">0.228s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flatMapSequentialOperator()</td>
+<td class="success">0.223s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mergeDelayErrorOperator()</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mergeOperator()</td>
+<td class="success">0.878s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mergeSequentialOperator()</td>
+<td class="success">1.442s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mergeWithOperator()</td>
+<td class="success">0.818s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multiplePublishOnSimple()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multipleSubscribeOnSimple()</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">publishAndSubscribeOnSimple()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">publishOnSimple()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">subscribeAndPublishOnSimple()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">subscribeOnIO()</td>
+<td class="failures">0.010s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">subscribeOnSimple()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">switchIfEmptyOperator()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">zipOperator()</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">zipWithOperator()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[parallel-8] INFO FluxTest - Number 0
+[Test worker] INFO reactor.Flux.ConcatArray.18 - onSubscribe(FluxConcatArray.ConcatArrayDelayErrorSubscriber)
+[Test worker] INFO reactor.Flux.ConcatArray.18 - request(unbounded)
+[Test worker] INFO reactor.Flux.ConcatArray.18 - onNext(a)
+[Test worker] INFO reactor.Flux.ConcatArray.18 - onNext(c)
+[Test worker] INFO reactor.Flux.ConcatArray.18 - onNext(d)
+[Test worker] ERROR reactor.Flux.ConcatArray.18 - onError(java.lang.IllegalArgumentException)
+[Test worker] ERROR reactor.Flux.ConcatArray.18 - 
+java.lang.IllegalArgumentException
+	at OperatorsTest.lambda$concatOperatorError$19(OperatorsTest.java:214)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113)
+	at reactor.core.publisher.FluxArray$ArraySubscription.fastPath(FluxArray.java:172)
+	at reactor.core.publisher.FluxArray$ArraySubscription.request(FluxArray.java:97)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:169)
+	at reactor.core.publisher.FluxConcatArray$ConcatArrayDelayErrorSubscriber.request(FluxConcatArray.java:461)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:138)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultVerifySubscriber.onSubscribe(DefaultStepVerifierBuilder.java:1123)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:171)
+	at reactor.core.publisher.FluxConcatArray$ConcatArrayDelayErrorSubscriber.onSubscribe(FluxConcatArray.java:350)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:53)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:59)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469)
+	at reactor.core.publisher.FluxConcatArray$ConcatArrayDelayErrorSubscriber.onComplete(FluxConcatArray.java:443)
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:73)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultStepVerifier.toVerifierAndSubscribe(DefaultStepVerifierBuilder.java:867)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultStepVerifier.verify(DefaultStepVerifierBuilder.java:823)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultStepVerifier.verify(DefaultStepVerifierBuilder.java:815)
+	at OperatorsTest.concatOperatorError(OperatorsTest.java:228)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[parallel-8] INFO reactor.Flux.Take.7 - onNext(1)
+[parallel-8] INFO FluxTest - Number 1
+[parallel-8] INFO reactor.Flux.Take.7 - onNext(2)
+[parallel-8] INFO FluxTest - Number 2
+[Test worker] INFO reactor.Flux.ConcatMap.19 - onSubscribe(FluxConcatMap.ConcatMapImmediate)
+[Test worker] INFO reactor.Flux.ConcatMap.19 - request(unbounded)
+[parallel-8] INFO reactor.Flux.Take.7 - onNext(3)
+[parallel-8] INFO FluxTest - Number 3
+[parallel-8] INFO reactor.Flux.Take.7 - onNext(4)
+[parallel-8] INFO FluxTest - Number 4
+[parallel-2] INFO reactor.Flux.ConcatMap.19 - onNext(c)
+[parallel-8] INFO reactor.Flux.Take.7 - onNext(5)
+[parallel-8] INFO FluxTest - Number 5
+[parallel-8] INFO reactor.Flux.Take.7 - onNext(6)
+[parallel-8] INFO FluxTest - Number 6
+[parallel-4] INFO reactor.Flux.ConcatMap.19 - onNext(d)
+[parallel-8] INFO reactor.Flux.Take.7 - onNext(7)
+[parallel-8] INFO FluxTest - Number 7
+[parallel-8] INFO reactor.Flux.Take.7 - onNext(8)
+[parallel-8] INFO FluxTest - Number 8
+[parallel-5] INFO reactor.Flux.ConcatMap.19 - onNext(a)
+[parallel-8] INFO reactor.Flux.Take.7 - onNext(9)
+[parallel-8] INFO FluxTest - Number 9
+[parallel-8] INFO reactor.Flux.Take.7 - onComplete()
+[parallel-6] INFO reactor.Flux.ConcatMap.19 - onNext(b)
+[parallel-6] INFO reactor.Flux.ConcatMap.19 - onComplete()
+[Test worker] INFO reactor.Flux.SwitchIfEmpty.20 - onSubscribe(FluxSwitchIfEmpty.SwitchIfEmptySubscriber)
+[Test worker] INFO reactor.Flux.SwitchIfEmpty.20 - request(unbounded)
+[Test worker] INFO reactor.Flux.SwitchIfEmpty.20 - onNext(not empty anymore)
+[Test worker] INFO reactor.Flux.SwitchIfEmpty.20 - onComplete()
+[boundedElastic-1] INFO OperatorsTest - Map 1 - Number 1 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2- Number 1 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 1 - Number 2 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2- Number 2 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 1 - Number 3 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2- Number 3 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 1 - Number 4 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2- Number 4 on Thread boundedElastic-1
+[Test worker] INFO OperatorsTest - time 1652554008685
+[Test worker] INFO OperatorsTest - time 1652554008794
+[Test worker] INFO OperatorsTest - time 1652554008906
+[Test worker] INFO OperatorsTest - time 1652554009014
+[Test worker] INFO reactor.Flux.ConcatArray.21 - onSubscribe(FluxConcatArray.ConcatArraySubscriber)
+[Test worker] INFO reactor.Flux.ConcatArray.21 - request(unbounded)
+[Test worker] INFO reactor.Flux.ConcatArray.21 - onNext(a)
+[Test worker] INFO reactor.Flux.ConcatArray.21 - onNext(b)
+[Test worker] INFO reactor.Flux.ConcatArray.21 - onNext(c)
+[Test worker] INFO reactor.Flux.ConcatArray.21 - onNext(d)
+[Test worker] INFO reactor.Flux.ConcatArray.21 - onComplete()
+[Test worker] INFO reactor.Flux.ConcatMap.22 - onSubscribe(FluxConcatMap.ConcatMapImmediate)
+[Test worker] INFO reactor.Flux.ConcatMap.22 - request(unbounded)
+[parallel-8] INFO reactor.Flux.ConcatMap.22 - onNext(c)
+[parallel-1] INFO reactor.Flux.ConcatMap.22 - onNext(d)
+[parallel-3] INFO reactor.Flux.ConcatMap.22 - onNext(a)
+[parallel-4] INFO reactor.Flux.ConcatMap.22 - onNext(b)
+[parallel-4] INFO reactor.Flux.ConcatMap.22 - onComplete()
+[single-1] INFO OperatorsTest - Map 1 - Number 1 on Thread single-1
+[single-1] INFO OperatorsTest - Map 1 - Number 2 on Thread single-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 1 on Thread boundedElastic-1
+[single-1] INFO OperatorsTest - Map 1 - Number 3 on Thread single-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 2 on Thread boundedElastic-1
+[single-1] INFO OperatorsTest - Map 1 - Number 4 on Thread single-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 3 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 4 on Thread boundedElastic-1
+[Test worker] INFO reactor.Flux.MergeSequential.23 - onSubscribe(FluxMergeSequential.MergeSequentialMain)
+[Test worker] INFO reactor.Flux.MergeSequential.23 - request(unbounded)
+[parallel-5] INFO reactor.Flux.MergeSequential.23 - onNext(nameA1)
+[parallel-6] INFO reactor.Flux.MergeSequential.23 - onNext(nameA2)
+[parallel-6] INFO reactor.Flux.MergeSequential.23 - onNext(nameB1)
+[parallel-6] INFO reactor.Flux.MergeSequential.23 - onNext(nameB2)
+[parallel-6] INFO reactor.Flux.MergeSequential.23 - onComplete()
+[Test worker] INFO reactor.Flux.ConcatMap.24 - onSubscribe(FluxConcatMap.ConcatMapImmediate)
+[Test worker] INFO reactor.Flux.ConcatMap.24 - request(unbounded)
+[parallel-2] INFO reactor.Flux.ConcatMap.24 - onNext(a)
+[parallel-4] INFO reactor.Flux.ConcatMap.24 - onNext(b)
+[parallel-5] INFO reactor.Flux.ConcatMap.24 - onNext(c)
+[parallel-6] INFO reactor.Flux.ConcatMap.24 - onNext(d)
+[parallel-7] INFO reactor.Flux.ConcatMap.24 - onNext(a)
+[parallel-8] INFO reactor.Flux.ConcatMap.24 - onNext(b)
+[parallel-8] INFO reactor.Flux.ConcatMap.24 - onComplete()
+[single-1] INFO OperatorsTest - Map 1 - Number 1 on Thread single-1
+[single-1] INFO OperatorsTest - Map 1 - Number 2 on Thread single-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 1 on Thread boundedElastic-1
+[single-1] INFO OperatorsTest - Map 1 - Number 3 on Thread single-1
+[single-1] INFO OperatorsTest - Map 1 - Number 4 on Thread single-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 2 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 3 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 4 on Thread boundedElastic-1
+[single-1] INFO OperatorsTest - Map 1 - Number 1 on Thread single-1
+[single-1] INFO OperatorsTest - Map 2 - Number 1 on Thread single-1
+[single-1] INFO OperatorsTest - Map 1 - Number 2 on Thread single-1
+[single-1] INFO OperatorsTest - Map 2 - Number 2 on Thread single-1
+[single-1] INFO OperatorsTest - Map 1 - Number 3 on Thread single-1
+[single-1] INFO OperatorsTest - Map 2 - Number 3 on Thread single-1
+[single-1] INFO OperatorsTest - Map 1 - Number 4 on Thread single-1
+[single-1] INFO OperatorsTest - Map 2 - Number 4 on Thread single-1
+[Test worker] INFO reactor.Flux.FlatMap.25 - onSubscribe(FluxFlatMap.FlatMapMain)
+[Test worker] INFO reactor.Flux.FlatMap.25 - request(unbounded)
+[Test worker] INFO reactor.Flux.FlatMap.25 - onNext(nameB1)
+[Test worker] INFO reactor.Flux.FlatMap.25 - onNext(nameB2)
+[parallel-1] INFO reactor.Flux.FlatMap.25 - onNext(nameA1)
+[parallel-2] INFO reactor.Flux.FlatMap.25 - onNext(nameA2)
+[parallel-2] INFO reactor.Flux.FlatMap.25 - onComplete()
+[Test worker] INFO reactor.Flux.CombineLatest.26 - | onSubscribe([Fuseable] FluxCombineLatest.CombineLatestCoordinator)
+[Test worker] INFO reactor.Flux.CombineLatest.26 - | request(unbounded)
+[Test worker] INFO reactor.Flux.CombineLatest.26 - | onNext(BC)
+[Test worker] INFO reactor.Flux.CombineLatest.26 - | onNext(BD)
+[Test worker] INFO reactor.Flux.CombineLatest.26 - | onComplete()
+[Test worker] INFO reactor.Flux.ConcatArray.27 - onSubscribe(FluxConcatArray.ConcatArraySubscriber)
+[Test worker] INFO reactor.Flux.ConcatArray.27 - request(unbounded)
+[Test worker] INFO reactor.Flux.ConcatArray.27 - onNext(a)
+[Test worker] INFO reactor.Flux.ConcatArray.27 - onNext(b)
+[Test worker] INFO reactor.Flux.ConcatArray.27 - onNext(c)
+[Test worker] INFO reactor.Flux.ConcatArray.27 - onNext(d)
+[Test worker] INFO reactor.Flux.ConcatArray.27 - onComplete()
+[boundedElastic-1] INFO OperatorsTest - Map 1 - Number 1 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2- Number 1 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 1 - Number 2 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2- Number 2 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 1 - Number 3 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2- Number 3 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 1 - Number 4 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2- Number 4 on Thread boundedElastic-1
+[boundedElastic-1] INFO reactor.Mono.Callable.28 - | onSubscribe([Fuseable] Operators.MonoSubscriber)
+[boundedElastic-1] INFO reactor.Mono.Callable.28 - | request(unbounded)
+[boundedElastic-1] ERROR reactor.Mono.Callable.28 - | onError(java.nio.file.NoSuchFileException: text-file)
+[boundedElastic-1] ERROR reactor.Mono.Callable.28 - 
+java.nio.file.NoSuchFileException: text-file
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:375)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:426)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2916)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3396)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3436)
+	at OperatorsTest.lambda$subscribeOnIO$12(OperatorsTest.java:143)
+	at reactor.core.publisher.MonoCallable.subscribe(MonoCallable.java:57)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.run(MonoSubscribeOn.java:126)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[Test worker] INFO reactor.Flux.Merge.29 - onSubscribe(FluxFlatMap.FlatMapMain)
+[Test worker] INFO reactor.Flux.Merge.29 - request(unbounded)
+[Test worker] INFO reactor.Flux.Merge.29 - onNext(a)
+[Test worker] INFO OperatorsTest - a
+[Test worker] ERROR OperatorsTest - We could do something with this
+[Test worker] INFO reactor.Flux.Merge.29 - onNext(c)
+[Test worker] INFO OperatorsTest - c
+[Test worker] INFO reactor.Flux.Merge.29 - onNext(d)
+[Test worker] INFO OperatorsTest - d
+[Test worker] INFO reactor.Flux.Merge.29 - onNext(a)
+[Test worker] INFO OperatorsTest - a
+[Test worker] ERROR OperatorsTest - We could do something with this
+[Test worker] ERROR reactor.Flux.Merge.29 - onError(reactor.core.Exceptions$CompositeException: Multiple exceptions)
+[Test worker] ERROR reactor.Flux.Merge.29 - 
+reactor.core.Exceptions$CompositeException: Multiple exceptions
+	at reactor.core.Exceptions.multiple(Exceptions.java:120)
+	at reactor.core.Exceptions.addThrowable(Exceptions.java:92)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.innerError(FluxFlatMap.java:858)
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onError(FluxFlatMap.java:990)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onError(FluxPeekFuseable.java:234)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onError(FluxMapFuseable.java:140)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:119)
+	at reactor.core.publisher.FluxArray$ArraySubscription.slowPath(FluxArray.java:127)
+	at reactor.core.publisher.FluxArray$ArraySubscription.request(FluxArray.java:100)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:169)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.request(FluxPeekFuseable.java:144)
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onSubscribe(FluxFlatMap.java:964)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onSubscribe(FluxPeekFuseable.java:178)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:53)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:59)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:426)
+	at reactor.core.publisher.FluxArray$ArraySubscription.slowPath(FluxArray.java:127)
+	at reactor.core.publisher.FluxArray$ArraySubscription.request(FluxArray.java:100)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:371)
+	at reactor.core.publisher.FluxMerge.subscribe(FluxMerge.java:70)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469)
+	at reactor.core.publisher.Flux.subscribeWith(Flux.java:8642)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8439)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8363)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8306)
+	at OperatorsTest.mergeDelayErrorOperator(OperatorsTest.java:333)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+	Suppressed: java.lang.IllegalArgumentException
+		at OperatorsTest.lambda$mergeDelayErrorOperator$21(OperatorsTest.java:323)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113)
+		... 111 more
+	Suppressed: java.lang.IllegalArgumentException
+		at OperatorsTest.lambda$mergeDelayErrorOperator$21(OperatorsTest.java:323)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113)
+		... 111 more
+[Test worker] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: reactor.core.Exceptions$CompositeException: Multiple exceptions
+Caused by: reactor.core.Exceptions$CompositeException: Multiple exceptions
+	at reactor.core.Exceptions.multiple(Exceptions.java:120)
+	at reactor.core.Exceptions.addThrowable(Exceptions.java:92)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.innerError(FluxFlatMap.java:858)
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onError(FluxFlatMap.java:990)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onError(FluxPeekFuseable.java:234)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onError(FluxMapFuseable.java:140)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:119)
+	at reactor.core.publisher.FluxArray$ArraySubscription.slowPath(FluxArray.java:127)
+	at reactor.core.publisher.FluxArray$ArraySubscription.request(FluxArray.java:100)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:169)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.request(FluxPeekFuseable.java:144)
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onSubscribe(FluxFlatMap.java:964)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onSubscribe(FluxPeekFuseable.java:178)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:53)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:59)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:426)
+	at reactor.core.publisher.FluxArray$ArraySubscription.slowPath(FluxArray.java:127)
+	at reactor.core.publisher.FluxArray$ArraySubscription.request(FluxArray.java:100)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:371)
+	at reactor.core.publisher.FluxMerge.subscribe(FluxMerge.java:70)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469)
+	at reactor.core.publisher.Flux.subscribeWith(Flux.java:8642)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8439)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8363)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8306)
+	at OperatorsTest.mergeDelayErrorOperator(OperatorsTest.java:333)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+	Suppressed: java.lang.IllegalArgumentException
+		at OperatorsTest.lambda$mergeDelayErrorOperator$21(OperatorsTest.java:323)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113)
+		... 111 more
+	Suppressed: java.lang.IllegalArgumentException
+		at OperatorsTest.lambda$mergeDelayErrorOperator$21(OperatorsTest.java:323)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113)
+		... 111 more
+[Test worker] INFO reactor.Flux.Merge.29 - onSubscribe(FluxFlatMap.FlatMapMain)
+[Test worker] INFO reactor.Flux.Merge.29 - request(unbounded)
+[Test worker] INFO reactor.Flux.Merge.29 - onNext(a)
+[Test worker] ERROR OperatorsTest - We could do something with this
+[Test worker] INFO reactor.Flux.Merge.29 - onNext(c)
+[Test worker] INFO reactor.Flux.Merge.29 - onNext(d)
+[Test worker] INFO reactor.Flux.Merge.29 - onNext(a)
+[Test worker] ERROR OperatorsTest - We could do something with this
+[Test worker] ERROR reactor.Flux.Merge.29 - onError(reactor.core.Exceptions$CompositeException: Multiple exceptions)
+[Test worker] ERROR reactor.Flux.Merge.29 - 
+reactor.core.Exceptions$CompositeException: Multiple exceptions
+	at reactor.core.Exceptions.multiple(Exceptions.java:120)
+	at reactor.core.Exceptions.addThrowable(Exceptions.java:92)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.innerError(FluxFlatMap.java:858)
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onError(FluxFlatMap.java:990)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onError(FluxPeekFuseable.java:234)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onError(FluxMapFuseable.java:140)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:119)
+	at reactor.core.publisher.FluxArray$ArraySubscription.slowPath(FluxArray.java:127)
+	at reactor.core.publisher.FluxArray$ArraySubscription.request(FluxArray.java:100)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:169)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.request(FluxPeekFuseable.java:144)
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onSubscribe(FluxFlatMap.java:964)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onSubscribe(FluxPeekFuseable.java:178)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:53)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:59)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:426)
+	at reactor.core.publisher.FluxArray$ArraySubscription.slowPath(FluxArray.java:127)
+	at reactor.core.publisher.FluxArray$ArraySubscription.request(FluxArray.java:100)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:371)
+	at reactor.core.publisher.FluxMerge.subscribe(FluxMerge.java:70)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8469)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultStepVerifier.toVerifierAndSubscribe(DefaultStepVerifierBuilder.java:867)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultStepVerifier.verify(DefaultStepVerifierBuilder.java:823)
+	at reactor.test.DefaultStepVerifierBuilder$DefaultStepVerifier.verify(DefaultStepVerifierBuilder.java:815)
+	at OperatorsTest.mergeDelayErrorOperator(OperatorsTest.java:340)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+	Suppressed: java.lang.IllegalArgumentException
+		at OperatorsTest.lambda$mergeDelayErrorOperator$21(OperatorsTest.java:323)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113)
+		... 110 more
+	Suppressed: java.lang.IllegalArgumentException
+		at OperatorsTest.lambda$mergeDelayErrorOperator$21(OperatorsTest.java:323)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113)
+		... 110 more
+[Test worker] INFO OperatorsTest - Map 1 - Number 1 on Thread Test worker
+[Test worker] INFO OperatorsTest - Map 1 - Number 2 on Thread Test worker
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 1 on Thread boundedElastic-1
+[Test worker] INFO OperatorsTest - Map 1 - Number 3 on Thread Test worker
+[Test worker] INFO OperatorsTest - Map 1 - Number 4 on Thread Test worker
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 2 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 3 on Thread boundedElastic-1
+[boundedElastic-1] INFO OperatorsTest - Map 2 - Number 4 on Thread boundedElastic-1
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 14 de mai. de 2022 15:46:52</p>
+</div>
+</div>
+</body>
+</html>

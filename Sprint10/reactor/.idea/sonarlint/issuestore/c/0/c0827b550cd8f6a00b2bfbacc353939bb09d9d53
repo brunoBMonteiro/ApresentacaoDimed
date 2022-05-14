@@ -1,25 +1,21 @@
 
 4
 java:S5786"Remove this 'public' modifier.(é˜É¨
-9
-java:S5786"Remove this 'public' modifier.(İÁ‡Òúÿÿÿÿ
-4
-java:S5786("Remove this 'public' modifier.(àéšÁ
 ;
-java:S57865"Remove this 'public' modifier.(èÔÏ8·¾…œ‹0
+java:S5786"Remove this 'public' modifier.(èÔÏ8ïŸ€ŸŒ0
 ;
-java:S5786K"Remove this 'public' modifier.(‘ë±8¸¾…œ‹0
+java:S57860"Remove this 'public' modifier.(‘ë±8Ö°ŸŒ0
 @
-java:S5786v"Remove this 'public' modifier.(´€Ÿıøÿÿÿÿ8¹¾…œ‹0
-A
-java:S5786•"Remove this 'public' modifier.(Ã®Ïşÿÿÿÿ8ôã§œ‹0
-A
-java:S5786£"Remove this 'public' modifier.(†ç‚Ğøÿÿÿÿ8ôœ»œ‹0
-A
-java:S5786®"Remove this 'public' modifier.(ò¾øÔşÿÿÿÿ8õœ»œ‹0
-A
-java:S5786Á"Remove this 'public' modifier.(ÇÏ»ôøÿÿÿÿ8•®Ûœ‹0
+java:S5786["Remove this 'public' modifier.(´€Ÿıøÿÿÿÿ8×°ŸŒ0
 @
-java:S5786"Remove this 'public' modifier.(¦¹¡Øûÿÿÿÿ8Æøéœ‹0
-B
-java:S2925ª"$Remove this use of "Thread.sleep()".(öÍËè8ÿœ»œ‹0
+java:S5786z"Remove this 'public' modifier.(Ã®Ïşÿÿÿÿ8Ø°ŸŒ0
+A
+java:S5786ˆ"Remove this 'public' modifier.(†ç‚Ğøÿÿÿÿ8Ù°ŸŒ0
+A
+java:S5786’"Remove this 'public' modifier.(ò¾øÔşÿÿÿÿ8Ú°ŸŒ0
+A
+java:S5786¤"Remove this 'public' modifier.(ÇÏ»ôøÿÿÿÿ8Ú°ŸŒ0
+A
+java:S5786Â"Remove this 'public' modifier.(ÂèÇ­øÿÿÿÿ8Û°ŸŒ0
+@
+java:S5786"Remove this 'public' modifier.(¦¹¡Øûÿÿÿÿ8İ°ŸŒ0
